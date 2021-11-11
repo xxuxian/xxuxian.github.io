@@ -9,13 +9,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/home/index.html</loc>
-    
-    <lastmod>2021-11-09</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://example.com/CV/index.html</loc>
     
     <lastmod>2021-11-10</lastmod>
@@ -33,6 +26,13 @@
     <loc>http://example.com/life/index.html</loc>
     
     <lastmod>2021-11-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/home/index.html</loc>
+    
+    <lastmod>2021-11-09</lastmod>
     
   </url>
   
