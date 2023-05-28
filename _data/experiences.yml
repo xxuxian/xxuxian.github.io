@@ -1,0 +1,45 @@
+- title: "PostDoc, Harvard University"
+  date: "May 2020 - now"
+  name: 'harvard'
+  # awards: 
+  # - title: "SENG Academic Award, HKUST"
+  #   info: a prize of HK$20,000 for students with good academic performance and research accomplishment
+  # - title: "Oversea Research Award, HKUST"
+  #   info: 10,000 HKD per month for an overseas research
+
+
+- title: "Visiting Student, University of Oxford"
+  date: "Aug 2019 - Dec 2019"
+  name: 'oxford'
+
+- title: "Research Intern, Microsoft Research Asia"
+  date: "Jun 2017 - Jan 2018"
+  name: 'ms'
+  awards: 
+  - title: The Award of Most Feasibility,
+      Microsoft One week Hackthon
+  - title:
+      Award of Excellence, MSRA Internship Program
+
+
+- title: "PhD, HKUST"
+  date: "Aug 2015 - Jan 2020"
+  name: 'hkust'
+  awards: 
+  - title: "SENG Academic Award, HKUST"
+    info: a prize of HK$20,000 for students with good academic performance and research accomplishment
+  - title: "Oversea Research Award, HKUST"
+    info: 10,000 HKD per month for an overseas research
+
+- title: "Intern, AIESEC of Russian"
+  date: "Jun 2015 - Aug 2015"
+  name: 'aiesec'
+
+- title: "Bachelor, Xi'an Jiaotong University"
+  date: "Aug 2011 - Jul 2015"
+  name: 'xjtu'
+  awards: 
+   - title: "Excellent Graduate"
+  #  - title: "Huaneng Scholoarship"
+  #  - title: "Suzhou hi-tech Scholorship"
+  #  - title: "Siyuan Scholoarship"

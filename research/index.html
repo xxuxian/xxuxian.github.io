@@ -1,0 +1,18 @@
+---
+layout: default
+title: "Research"
+header_title: Research Publication
+include_header: page_header.html
+nav_item: Research
+extra_scripts:
+- /assets/js/papers.js
+---
+
+
+
+<!-- {% capture url_path %}{{site.url}}{{page.url}}{% endcapture %}
+<a> {{url_path}} </a> -->
+
+{% for project in site.data.projects %}
+{% include project-outline.html project=project %}
+{% endfor %}

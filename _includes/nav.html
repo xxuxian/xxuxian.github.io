@@ -1,0 +1,16 @@
+<nav class="clearfix border-bottom border-light-gray">
+  <div class="left">
+    
+    <a href="{{ site.url }}" class="button py1 button-transparent nav-button caps valign-middle">
+      <img src ="{{ site.icon }}" class="icon nav-button valign-middle"/>
+      <span class="nav-button valign-middle">{{ site.name }}</span>
+   </a>
+  </div>
+  <ul class=" list-reset m0 nav-collapse">
+    {% for nav_item in site.nav.main %}
+      <li class="inline-block m0">
+        <a href="{{ nav_item[1] }}" class=" button button-transparent py2 h6 nav-button caps{% if page.nav_item == nav_item[0] %} link-color{% endif %}">{{ nav_item[0] }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

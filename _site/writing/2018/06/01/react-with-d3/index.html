@@ -1,0 +1,515 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149818290-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-149818290-1');
+</script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>D3.js with React</title>
+<meta name="description" content="The home page of Xian Xu, co-founder of Gruntwork, author of &quot;Hello, Startup&quot; and &quot;Terraform: Up & Running&quot;, and software engineer at LinkedIn, TripAdvisor, Cisco Systems, and Thomson Financial.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+<meta name="twitter:card" content="summary" />
+<!-- <meta name="twitter:site" content="" /> -->
+<meta name="twitter:title" content="D3.js with React" />
+<meta name="twitter:url" content="http://localhost:4000/writing/2018/06/01/react-with-d3/" />
+<meta name="twitter:description" content="D3.js is one of the best available options for data visualization. Since its creation in 2011, it has become the de facto for bulding data visualziations on the web.React, in my opionion, is obviously the best library. It’s simple, declarative, and composable." />
+<meta name="twitter:image" content="http://localhost:4000/assets/img/blog/react-with-d3/react-d3.png" />
+
+<meta property="og:title" content="D3.js with React"/>
+<meta property="og:url" content="http://localhost:4000/writing/2018/06/01/react-with-d3/"/>
+<meta property="og:site_name" content="Xian Xu"/>
+<!-- <meta property="article:author" content=""/> -->
+<meta property="og:description" content="D3.js is one of the best available options for data visualization. Since its creation in 2011, it has become the de facto for bulding data visualziations on the web.React, in my opionion, is obviously the best library. It’s simple, declarative, and composable."/>
+<meta property="og:image" content="http://localhost:4000/assets/img/blog/react-with-d3/react-d3.png"/>
+
+
+<link rel="canonical" href="http://localhost:4000/writing/2018/06/01/react-with-d3/">
+<link rel="alternate" type="application/rss+xml" title="Xian Xu" href="http://localhost:4000">
+
+
+<!-- <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/assets/img/icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
+<link rel="manifest" href="/assets/img/icons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/assets/img/icons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff"> -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icons/cat.ico">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/icons/cat.ico">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/icons/cat.ico">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/icons/cat.ico">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/icons/cat.ico">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/icons/cat.ico">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/icons/cat.ico">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/icons/cat.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/cat.ico">
+<link rel="icon" type="image/png" sizes="192x192"  href="/assets/img/icons/cat.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/cat.ico">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icons/cat.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/cat.ico">
+<!-- <link rel="manifest" href="/assets/img/icons/manifest.json"> -->
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/assets/img/icons/cat.ico">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Montserrat:400,700">
+<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+
+
+</head>
+<body>
+  <nav class="clearfix border-bottom border-light-gray">
+  <div class="left">
+    
+    <a href="http://localhost:4000" class="button py1 button-transparent nav-button caps valign-middle">
+      <img src ="" class="icon nav-button valign-middle"/>
+      <span class="nav-button valign-middle">Xian Xu</span>
+   </a>
+  </div>
+  <ul class=" list-reset m0 nav-collapse">
+    
+      <li class="inline-block m0">
+        <a href="/research" class=" button button-transparent py2 h6 nav-button caps">Publication</a>
+      </li>
+    
+      <li class="inline-block m0">
+        <a href="/awards" class=" button button-transparent py2 h6 nav-button caps">Awards and Services</a>
+      </li>
+    
+      <li class="inline-block m0">
+        <a href="/talks" class=" button button-transparent py2 h6 nav-button caps">Talks</a>
+      </li>
+    
+      <li class="inline-block m0">
+        <a href="/CV" class=" button button-transparent py2 h6 nav-button caps">CV</a>
+      </li>
+    
+      <li class="inline-block m0">
+        <a href="/photos" class=" button button-transparent py2 h6 nav-button caps">Life</a>
+      </li>
+    
+      <li class="inline-block m0">
+        <a href="/creations" class=" button button-transparent py2 h6 nav-button caps">Creation</a>
+      </li>
+    
+  </ul>
+</nav>
+  
+    <header class="bg-splash-gray px3 py3 border-bottom border-light-gray">
+  <div class="container">
+  <div class="clearfix">
+    <a href="http://localhost:4000/writing/2018/06/01/react-with-d3/">
+      <h2 class="page-title mt0 mb1">
+        
+          D3.js with React
+        
+      </h2>
+    </a>
+  </div>
+  <div>
+
+<div class="gray h6">
+  <span class="mr1 nowrap">
+    <i class="fa fa-calendar"></i>
+    <time datetime="2018-06-01">Jun 01, 2018</time>
+  </span>
+  
+    <span class="mr1 nowrap">
+      <i class="fa fa-tags"></i>
+      
+      
+      <a href="/writing/tags/#developer%20experience">developer experience</a>
+      
+    </span>
+  
+  
+    <span class="mr1 nowrap">
+      <i class="fa fa-comments"></i>
+      
+      <a href="#comments" class="disqus-comment-count" data-disqus-identifier="/writing/2018/06/01/react-with-d3">Comments</a>
+    </span>
+  
+  
+    
+    <span class="nowrap">
+      <i class="fa fa-clock-o"></i>
+      <span>5 min read</span>
+    </span>
+  
+</div>
+</div>
+</div>
+
+  
+
+</header>
+
+  
+  <main class="container block p3">
+    <div class="post">
+  <div class="post-content">
+    <p><a href="https://d3js.org/">D3.js</a> is one of the best available options for data visualization. 
+Since its creation in 2011, it has become the de facto for bulding data visualziations on the web.
+<a href="https://reactjs.org/">React</a>, in my opionion, is obviously the best library. 
+It’s simple, declarative, and composable.</p>
+
+<p>Bringing together D3.js and React isn’t new but is still not well-established enougth to point to one sure way to do it.
+In this post, I’d like to write down my own experience of using React with D3.</p>
+
+<p>So, the first question is:</p>
+<h2 id="why-it-is-not-easy-to-use-d3-with-react">Why it is not easy to use D3 with React</h2>
+<p>The biggest obstacle is the different rendering mechanisms between React and D3, which makes it not easy to integrate React and D3 seamlessly.</p>
+
+<p>React uses <strong>states</strong> for data management and render virtual DOMs.
+A diff algorithm is used to control the rendering of differnt components.</p>
+
+<!-- Here is an example to use React to render a series of bars.  
+```
+const data =  [3,4,5]
+``` -->
+
+<p>D3 use <strong>enter</strong>, <strong>update</strong>, <strong>exit</strong> selection to bind data with DOMs and control the rendering of different DOMs.</p>
+
+<h2 id="three-ways-to-use-d3-with-react">Three ways to use D3 with React</h2>
+<p>I will use a simplied force-directed example to demonstrate the three ways.</p>
+
+<!-- <figure>
+  
+  
+  
+    <img data-src="/assets/img/blog/react-with-d3/example.png" alt="example" class="lazyload">
+
+  
+  
+</figure> -->
+
+<h3 id="way-1">way 1:</h3>
+<p>React for structure  <br />
+D3 for data calculation  <br />
+D3 for rendering</p>
+
+<p>React creates a component called as Graph, which consist of an update button and a svg. 
+D3 binds data and draw DOMs in the componentDidMount() function of this react component.
+We explicitly forbide the update of React in  shouldComponentUpdate() and use D3 to update the DOMs.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>force = d3.layout.force()
+  .charge(-300)
+  .linkDistance(50)
+  .size([width, height]);
+
+
+class Graph extends React.Component{
+
+  componentDidMount(){
+    // use D3 to bind data and render DOMs here
+    this.d3Graph = d3.select(ReactDOM.findDOMNode(this.refs.graph));
+    force.on('tick', () =&gt; {
+    // uses d3 to manipulate the attributes,
+    // and React doesn't have to go through lifecycle on each tick
+    this.d3Graph.call(updateGraph);
+    });
+
+  }
+  shouldComponentUpdate(nextProps) {
+    // here, we use D3 to update and forbid the update of React
+    this.d3Graph = d3.select(ReactDOM.findDOMNode(this.refs.graph));
+
+    let d3Nodes = this.d3Graph.selectAll('.node')
+      .data(nextProps.nodes, (node) =&gt; node.key);
+    d3Nodes.enter().append('g').call(enterNode);
+    d3Nodes.exit().remove();
+    d3Nodes.call(updateNode);
+
+    let d3Links = this.d3Graph.selectAll('.link')
+      .data(nextProps.links, (link) =&gt; link.key);
+    d3Links.enter().insert('line', '.node').call(enterLink);
+    d3Links.exit().remove();
+    d3Links.call(updateLink);
+
+    force.nodes(nextProps.nodes).links(nextProps.links);
+    force.start();
+
+    return false;
+  }
+
+  render() {
+    return (
+      &lt;div&gt;
+        &lt;button className="update"&gt;update&lt;/button&gt;
+         &lt;svg width={width} height={height}&gt;
+            &lt;g className ='graph' /&gt;
+        &lt;/svg&gt;
+      &lt;/div&gt;
+    );
+  },
+};
+</code></pre>
+</div>
+
+<ul>
+  <li>Pro:
+Use all the d3 functions =&gt; the viz scales well</li>
+  <li>Con:
+not take full advantages of React</li>
+</ul>
+
+<h3 id="way-2">way 2:</h3>
+<p>React for structure<br />
+D3 for data calculation<br />
+D3 AND React for rendering<br />
+React for enter/exit<br />
+D3 for update</p>
+
+<p>React is used to wrap all visual element.
+In each element, D3 does the binding and rendering.</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>var Node = React.createClass({
+  componentDidMount() {
+    this.d3Node = d3.select(ReactDOM.findDOMNode(this))
+      .datum(this.props.data)
+      .call(enterNode);
+  },
+
+  componentDidUpdate() {
+    this.d3Node.datum(this.props.data)
+      .call(updateNode);
+  },
+
+  render() {
+    return (
+      &lt;g className='node'&gt;
+        &lt;circle/&gt;
+        &lt;text&gt;{this.props.data.key}&lt;/text&gt;
+      &lt;/g&gt;
+    );
+  },
+});
+</code></pre>
+</div>
+
+<p>Then, create a Graph react component</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>var Graph = React.createClass({
+  componentDidMount() {
+    this.d3Graph = d3.select(ReactDOM.findDOMNode(this));
+    force.on('tick', () =&gt; {
+      // after force calculation starts, call updateGraph
+      // which uses d3 to manipulate the attributes,
+      // and React doesn't have to go through lifecycle on each tick
+      this.d3Graph.call(updateGraph);
+    });
+  },
+
+  componentDidUpdate() {
+    force.nodes(this.props.nodes).links(this.props.links);
+    
+    // start force calculations after
+    // React has taken care of enter/exit of elements
+    force.start();
+  },
+
+  render() {
+    // use React to draw all the nodes, d3 calculates the x and y
+    var nodes = _.map(this.props.nodes, (node) =&gt; {
+      return (&lt;Node data={node} key={node.key} /&gt;);
+    });
+    var links = _.map(this.props.links, (link) =&gt; {
+      return (&lt;Link key={link.key} data={link} /&gt;);
+    });
+
+    return (
+      &lt;svg width={width} height={height}&gt;
+        &lt;g&gt;
+          {links}
+          {nodes}
+        &lt;/g&gt;
+      &lt;/svg&gt;
+    );
+  }
+});
+</code></pre>
+</div>
+
+<ul>
+  <li>Pro: Takes advantage of respective strengths</li>
+  <li>Con: Wraps React component around all vis components -&gt; will not scale  <br />
+unclear structure</li>
+</ul>
+
+<h3 id="way-3">way 3:</h3>
+<p>React for structure   <br />
+D3 for data calculation  <br />
+React for rendering</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>class Graph extends React.component{
+  componentDidMount() {
+    // D3 to calculate position
+    // forceUpdate on the React component on each tick
+    force.on('tick', () =&gt; {
+    this.forceUpdate()
+    });
+  },
+
+  componentWillReceiveProps(nextProps) {
+    force.nodes(nextProps.nodes).links(nextProps.links);
+    force.start();
+  },
+
+  render() {
+    // use React to draw all the nodes, d3 calculates the x and y
+    var nodes = _.map(this.props.nodes, (node) =&gt; {
+      var transform = 'translate(' + node.x + ',' + node.y + ')';
+      return (
+        &lt;g className='node' key={node.key} transform={transform}&gt;
+          &lt;circle r={node.size} /&gt;
+          &lt;text x={node.size + 5} dy='.35em'&gt;{node.key}&lt;/text&gt;
+        &lt;/g&gt;
+      );
+    });
+    var links = _.map(this.props.links, (link) =&gt; {
+      return (
+        &lt;line className='link' key={link.key} strokeWidth={link.size}
+          x1={link.source.x} x2={link.target.x} y1={link.source.y} y2={link.target.y} /&gt;
+      );
+    });
+
+    return (
+      &lt;svg width={width} height={height}&gt;
+        &lt;g&gt;
+          {links}
+          {nodes}
+        &lt;/g&gt;
+      &lt;/svg&gt;
+    );
+  }
+};
+</code></pre>
+</div>
+
+<ul>
+  <li>Pro: 
+Clean, easy to reason about</li>
+  <li>Con: 
+Goes through lifecycle for every tick -&gt; will not scale<br />
+Cannot use D3 functions that need access to DOM</li>
+</ul>
+
+<h4 id="my-preferred-method">My preferred method:</h4>
+<p>Personally, I prefer way 3 because a) it has a clear structure and b) it takes the full advantages of React.</p>
+
+<h3 id="do-we-really-need-to-use-d3">Do we really need to use D3?</h3>
+<p>Apart from D3, there are other fantastic data visualization libraries.
+Among these libraries, I personally like <a href="https://ecomfe.github.io/echarts-doc/public/en/index.html">Echarts</a> and <a href="https://vega.github.io/vega/examples/">Vega</a> since they have more clear and modern structure designs.
+Moerover, since ECharts and Vega are JSON-specified, they are more easy to be used with React.</p>
+
+<p><strong>Reference</strong><br />
+<a href="https://blog.lucify.com/building-interactive-visualizations-with-react-d3-and-typescript-206c7172b0d2">Building interactive visualizations with React, D3, and TypeScript</a><br />
+<a href="https://medium.com/@tibotiber/react-d3-js-balancing-performance-developer-experience-4da35f912484">React + D3.js: Balancing Performance &amp; Developer Experience</a></p>
+
+  </div>
+  <div class="mt4 mb4"><div class="clearfix mxn1">
+  <div class="md-col md-col-6 px1">
+    
+      <a href="/writing/2018/05/28/learn-DL/">
+        <div class="h6 caps gray">Previous</div>
+        <h4 class="mt0">Some Helpful Resources for Learning DNNs</h4>
+      </a>
+    
+  </div>
+  <div class="md-col md-col-6 px1 right-align">
+    
+      <a href="/writing/2018/07/01/books/">
+        <div class="h6 caps gray">Next</div>
+        <h4 class="mt0">2017-2018读书笔记：给我力量的三本书</h4>
+      </a>    
+    
+  </div>
+</div></div>
+</div>
+  </main>
+  
+    <section class="bg-splash-gray px3 py3 border-top border-light-gray">
+  <div class="container block p3">
+    <a name="comments"></a>
+    <h4>Comments</h4>
+    <div id="disqus_thread"></div>
+  </div>
+</section>
+
+  
+  <footer class="sticky-footer border-top border-light-gray gray h6">
+  <div class="sm-col px2">
+    &copy; 2023 Xian Xu.    
+  </div>
+  <!-- <div class="sm-col-right px2">
+    
+      
+      <a href="https://github.com/xxuxian" target="_blank" class="gray hint--top" data-hint="GitHub">
+        <i class="fa fa-fw fa-lg fa-github-square"></i>
+      </a>
+    
+      
+      <a href="xian.xu@connect.ust.hk" target="_blank" class="gray hint--top" data-hint="Email">
+        <i class="fa fa-fw fa-lg fa-envelope-square"></i>
+      </a>
+    
+  </div> -->
+</footer>
+  <script type="text/javascript" src="/assets/js/main.js"></script>
+
+  <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'qianwen';
+    var disqus_identifier = '/writing/2018/06/01/react-with-d3';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      
+
+      
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3107613-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>

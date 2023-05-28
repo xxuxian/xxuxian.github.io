@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Qianwen's experiences"
+redirect_from: "/experiences"
+header_title: Experiences
+include_header: page_header.html
+nav_item: experiences
+---
+
+{% for exp in site.data.experiences %}
+  {% include experiences-outline.html exp=exp %}
+{% endfor %}

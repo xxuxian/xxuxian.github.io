@@ -1,0 +1,74 @@
+# Website settings
+url: "http://wangqianwen0418.github.io"
+# icon: "/assets/img/icons/cat.ico"
+
+# Internal nav
+nav:
+  main:
+    # home: "/"
+    Publication: "/research"
+    Awards and Services: '/awards'
+    Talks: '/talks'
+    # experiences: "/experiences"
+    CV: "/CV"
+    # blogs: "/writing"
+    Life: "/photos"
+    Creation: "/creations"
+
+  blogs:
+    all: "/writing"
+    popular: "/writing/popular"
+    tags: "/writing/tags"
+    rss: "/feed.xml"
+
+# Bio settings
+name: "Xian Xu"
+description: "The home page of Xian Xu, co-founder of Gruntwork, author of &quot;Hello, Startup&quot; and &quot;Terraform: Up & Running&quot;, and software engineer at LinkedIn, TripAdvisor, Cisco Systems, and Thomson Financial."
+thumbnail_path: "profile-photos/xian.jpg"
+
+
+# URLs
+contact_urls:
+  # twitter:
+  #   url: "https://twitter.com/brikis98"
+  #   label: "Twitter"
+  #   icon: "twitter-square"
+  #   username: "@brikis98"
+  # linkedin:
+  #   url: "https://www.linkedin.com/in/jbrikman"
+  #   label: "LinkedIn"
+  #   icon: "linkedin-square"
+  # facebook:
+  #   url: "https://www.facebook.com/brikis98"
+  #   label: "Facebook"
+  #   icon: "facebook-square"
+  # slideshare:
+  #   url: "https://www.slideshare.net/brikis98"
+  #   label: "SlideShare"
+  #   icon: "slideshare"
+  github:
+    url: "https://github.com/xxuxian"
+    label: "GitHub"
+    icon: "github-square"
+  email:
+    url: "xian.xu@connect.ust.hk"
+    label: "Email"
+    value: "xian.xu@connect.ust.hk"
+    icon: "envelope-square"
+  
+
+# Jekyll build settings
+paginate: 10
+paginate_path: "/writing/page:num"
+permalink: "/writing/:year/:month/:day/:title/"
+sass:
+  sass_dir: "/assets/css"
+  style: :compressed
+highlighter: rouge
+timezone: 'America/Los_Angeles'
+
+# Plugins (GitHub Pages only support a few)
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-paginate

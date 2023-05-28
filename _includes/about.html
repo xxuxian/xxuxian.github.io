@@ -1,0 +1,104 @@
+<div class="clearfix mxn2">
+  <div class="col md-col-8 sm-col-12 px2">
+    <!-- <div class="bg-light-yellow pre h5 px2 py1 border-left bold">I am on the job market and looking for a
+      faculty/research position starting from fall 2023. <br />
+      Feel free to drop me an email at qianwen_wang@hms.harvard.edu</div> -->
+    <h3 class="mt0 mb1">About me</h3>
+    <p class="justify">
+      Welcome to visit my site! I am Xian Xu (徐娴), currently a final year Ph.D. candidate in <a class="link about" href="http://vis.cse.ust.hk/"
+      target="_blank">HKUST VisLab</a> 
+      and majored in Computational Media and Arts, Individualized Interdisciplinary Program, The Hong Kong University of Science and Technology (HKUST) under the supervision of 
+      Prof. Huamin Qu. <a class="link about" href="http://huamin.org/" target="_blank">Huamin Qu</a>
+      I received my BA in Directing (Film and TV Producing) and MFA in Studies of Drama (Film and TV) from <a class="link about" href="http://web.zhongxi.cn/en/"
+      target="_blank">The Central Academy of Drama</a> (中央戏剧学院).
+      I am a research visiting scholar at Oxford University and Cambridge University
+      <a class="link about" href="https://www.cdh.cam.ac.uk/about/people/xian-xu/" target="_blank">Cambridge University</a>.
+    </p>
+
+    <p class="justify">
+      My research interests and artworks mainly focus on the interdisciplinary study of data-driven storytelling, cinematic arts,  
+      arts education in VR or the Metaverse, and Human-Computer Interaction. 
+      I devote myself to enhancing data-driven storytelling and arts education by extending not only the disciplinary depth but also the interdisciplinary breadth. 
+      I am a five-time national scholarship winner and Beijing's outstanding graduate winner. 
+      I had the privilege of being involved in the TV drama <a class="link about" href="https://en.wikipedia.org/wiki/Our_Glamorous_Time"
+      target="_blank">"Our Glamorous Time"</a> as a scriptwriter. Furthermore, 
+      I have authored a bestselling book titled "I Like To Be Independent" and have conducted multiple promotional events and speaking engagements in major cities across China. 
+      I am also passionate about movies and travel. I have been fortunate to explore numerous cities across China and various countries. 
+      Additionally, I take great pleasure in capturing life's precious moments through the lens of a camera and expressing them through the art of words.
+
+    </p>  
+
+    <!-- <p>
+      I have a passion for Research, Traveling, Reading and Painting.
+    </p>   -->
+  </div>
+  <div class="col md-col-4 sm-col-12 px2 ">
+    <h3 class="mt0 mb0">News</h3>
+    <div class="clearfix max-height-400 overflow-scroll">
+      <ul class="dark-gray" style="padding-left: 20px;">
+        {% for new in site.data.news %}
+        <li class="h5 header-font">[<b>{{new.date}}</b>] {{ new.title }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<!-- Research Themes -->
+<h3>Research Themes</h3>
+<div class="clearfix mxn2">
+  <div class="col md-col-4 sm-col-6 xs-col-12 px1">
+    <div style='background-image:url(/assets/img/themes/human-ai.png);width:100%; height: 200px;'
+      class="bg-contain border">
+      <div class=" bg-light-silver px1 py1 show-on-hover-container opacity-8">
+        <p class="bold center mb0">
+          <a class="dark-gray" href="/research/?tags=vis4ml">Human-AI Collaboration <i class="fa fa-external-link"></i>
+          </a>
+        </p>
+        <p class="h5 dark-gray justify show-on-hover mb0">
+          I design and develop tools to facilitate Human-AI collaboration,
+          which also drives my investigation on visualization techniques, algorithms, and design frameworks.
+        </p>
+      </div>
+    </div>
+    <!-- <img src="/assets/img/projects/nest_xai.png" class="theme"/> -->
+
+  </div>
+
+  <div class="col md-col-4 sm-col-6 xs-col-12 px1">
+    <div style='background-image:url(/assets/img/projects/narvis.png);width:100%; height: 200px;' class="bg-contain">
+      <div class=" bg-light-silver px1 py1 show-on-hover-container opacity-8">
+        <p class="bold center mb0">
+          <a class="dark-gray" href="/research/?tags=ml4vis+design">Automatic &
+            Intelligent Visualization <i class="fa fa-external-link"></i></a>
+        </p>
+        <p class="h5 dark-gray justify show-on-hover mb0">
+          I propose techniques, authoring tools, and machine learning algorithms in pursuit of making visualizations
+          that
+          can be accurately
+          interpreted and easily used by everyone.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col md-col-4 sm-col-6 xs-col-12 px1">
+    <div style='background-image:url(/assets/img/themes/drug.png);width:100%; height: 200px;' class="bg-contain">
+      <div class=" bg-light-silver px1 py1 show-on-hover-container opacity-8">
+        <p class="bold center mb0">
+          <a class="dark-gray" href="/research/?tags=biomed">VIS+(X)AI in Biomed/Healthcare
+            <i class="fa fa-external-link"></i>
+          </a>
+        </p>
+        <p class="h5 dark-gray justify show-on-hover mb0">
+          Through wide collaboration, I am studying how VIS + (X)AI can promote scientific discoveries, especially
+          in the field of biomedicine and
+          healthcare
+          (e.g., genomics, single-cell, and cohort analysis).
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>

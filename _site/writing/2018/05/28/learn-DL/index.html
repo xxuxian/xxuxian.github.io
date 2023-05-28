@@ -1,0 +1,335 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149818290-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-149818290-1');
+</script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Some Helpful Resources for Learning DNNs</title>
+<meta name="description" content="The home page of Xian Xu, co-founder of Gruntwork, author of &quot;Hello, Startup&quot; and &quot;Terraform: Up & Running&quot;, and software engineer at LinkedIn, TripAdvisor, Cisco Systems, and Thomson Financial.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+<meta name="twitter:card" content="summary" />
+<!-- <meta name="twitter:site" content="" /> -->
+<meta name="twitter:title" content="Some Helpful Resources for Learning DNNs" />
+<meta name="twitter:url" content="http://localhost:4000/writing/2018/05/28/learn-DL/" />
+<meta name="twitter:description" content="I list some helpful resources for learning deep neural networks based on my learning experience. Will update from time to time." />
+<meta name="twitter:image" content="http://localhost:4000/assets/img/blog/DNN-resources/dnn.png" />
+
+<meta property="og:title" content="Some Helpful Resources for Learning DNNs"/>
+<meta property="og:url" content="http://localhost:4000/writing/2018/05/28/learn-DL/"/>
+<meta property="og:site_name" content="Xian Xu"/>
+<!-- <meta property="article:author" content=""/> -->
+<meta property="og:description" content="I list some helpful resources for learning deep neural networks based on my learning experience. Will update from time to time."/>
+<meta property="og:image" content="http://localhost:4000/assets/img/blog/DNN-resources/dnn.png"/>
+
+
+<link rel="canonical" href="http://localhost:4000/writing/2018/05/28/learn-DL/">
+<link rel="alternate" type="application/rss+xml" title="Xian Xu" href="http://localhost:4000">
+
+
+<!-- <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/assets/img/icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
+<link rel="manifest" href="/assets/img/icons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/assets/img/icons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff"> -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icons/cat.ico">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/icons/cat.ico">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/icons/cat.ico">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/icons/cat.ico">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/icons/cat.ico">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/icons/cat.ico">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/icons/cat.ico">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/icons/cat.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/cat.ico">
+<link rel="icon" type="image/png" sizes="192x192"  href="/assets/img/icons/cat.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/cat.ico">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icons/cat.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/cat.ico">
+<!-- <link rel="manifest" href="/assets/img/icons/manifest.json"> -->
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/assets/img/icons/cat.ico">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Montserrat:400,700">
+<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+
+
+</head>
+<body>
+  <nav class="clearfix border-bottom border-light-gray">
+  <div class="left">
+    
+    <a href="http://localhost:4000" class="button py1 button-transparent nav-button caps valign-middle">
+      <img src ="" class="icon nav-button valign-middle"/>
+      <span class="nav-button valign-middle">Xian Xu</span>
+   </a>
+  </div>
+  <ul class=" list-reset m0 nav-collapse">
+    
+      <li class="inline-block m0">
+        <a href="/research" class=" button button-transparent py2 h6 nav-button caps">Publication</a>
+      </li>
+    
+      <li class="inline-block m0">
+        <a href="/awards" class=" button button-transparent py2 h6 nav-button caps">Awards and Services</a>
+      </li>
+    
+      <li class="inline-block m0">
+        <a href="/talks" class=" button button-transparent py2 h6 nav-button caps">Talks</a>
+      </li>
+    
+      <li class="inline-block m0">
+        <a href="/CV" class=" button button-transparent py2 h6 nav-button caps">CV</a>
+      </li>
+    
+      <li class="inline-block m0">
+        <a href="/photos" class=" button button-transparent py2 h6 nav-button caps">Life</a>
+      </li>
+    
+      <li class="inline-block m0">
+        <a href="/creations" class=" button button-transparent py2 h6 nav-button caps">Creation</a>
+      </li>
+    
+  </ul>
+</nav>
+  
+    <header class="bg-splash-gray px3 py3 border-bottom border-light-gray">
+  <div class="container">
+  <div class="clearfix">
+    <a href="http://localhost:4000/writing/2018/05/28/learn-DL/">
+      <h2 class="page-title mt0 mb1">
+        
+          Some Helpful Resources for Learning DNNs
+        
+      </h2>
+    </a>
+  </div>
+  <div>
+
+<div class="gray h6">
+  <span class="mr1 nowrap">
+    <i class="fa fa-calendar"></i>
+    <time datetime="2018-05-28">May 28, 2018</time>
+  </span>
+  
+    <span class="mr1 nowrap">
+      <i class="fa fa-tags"></i>
+      
+      
+      <a href="/writing/tags/#learning%20notes">learning notes</a>
+      
+    </span>
+  
+  
+    <span class="mr1 nowrap">
+      <i class="fa fa-comments"></i>
+      
+      <a href="#comments" class="disqus-comment-count" data-disqus-identifier="/writing/2018/05/28/learn-DL">Comments</a>
+    </span>
+  
+  
+    
+    <span class="nowrap">
+      <i class="fa fa-clock-o"></i>
+      <span>2 min read</span>
+    </span>
+  
+</div>
+</div>
+</div>
+
+  
+
+</header>
+
+  
+  <main class="container block p3">
+    <div class="post">
+  <div class="post-content">
+    <p>I list some helpful resources for learning deep neural networks based on my learning experience. 
+Will update from time to time.</p>
+
+<h3 id="lectures--textbook">lectures &amp; textbook</h3>
+<p>The <a href="http://cs231n.stanford.edu/">standford cs231n</a> is a good start to learn CNNs.
+The <a href="http://web.stanford.edu/class/cs224n/">cs224n</a> is about natural language processing with deep learning.<br />
+<a href="http://cs229.stanford.edu/">CS229: Machine Learning</a>, knowledge about machine learning (not deep) is also important.</p>
+
+<p>I also recommend the <a href="http://www.deeplearningbook.org/">MIT deep learning book</a>.</p>
+
+<p>If you are interested in reinforcement learning, David Silver is a good teacher.
+The videos of his <a href="https://www.youtube.com/watch?v=2pWv7GOvuf0">RL cource</a> is available at YouTube.</p>
+
+<h3 id="blogs">blogs</h3>
+<p>Blogs usually simplified concepts to make them easier to understand.
+Thus, they are more friendly to beginners.</p>
+
+<p>Here are some high-quality blogs I have read about CNNs.</p>
+
+<p><a href="https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks/">A Beginner’s Guide To Understanding Convolutional Neural Networks</a>.
+PS: the author was only 19 when he wrote this high-quality blog.</p>
+
+<p><a href="http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review">A 2017 Guide to Semantic Segmentation with Deep Learning</a></p>
+
+<p><a href="http://www.themtank.org/a-year-in-computer-vision">A Year in Computer Vision</a> is a good report about DNNs in CV.</p>
+
+<p><a href="https://medium.com/comet-app/review-of-deep-learning-algorithms-for-object-detection-c1f3d437b852">Review of Deep Learning Algorithms for Object Detection</a></p>
+
+<h3 id="surveys">Surveys</h3>
+
+<p>two survey papers I like:<br />
+<a href="https://arxiv.org/abs/1801.01078">Recent Advances in Recurrent Neural Networks</a><br />
+<a href="https://arxiv.org/abs/1512.07108">Recent Advances in Convolution Neural Networks</a></p>
+
+<p>There is a <a href="https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems">github repo</a> that collects the state-of-the-art results for machine learning problems.</p>
+
+<p><a href="https://wangqianwen0418.github.io/projects/DNNGenealogy">DNN Genealogy</a>, an interactive visualization tool developed by our group, summarizes the milestone models in the development of DNNs.</p>
+<figure>
+  
+  
+  
+    <img data-src="/assets/img/blog/DNN-resources/DNN-genealogy.png" alt="DNN genealogy" class="lazyload" />
+
+  
+  
+</figure>
+
+<p>The <a href="https://github.com/BVLC/caffe/wiki/Model-Zoo">Caffe Model Zoo</a> is also a good place to look for DNN models.</p>
+
+<h3 id="framework">Framework</h3>
+<p>Don’t start with tensorflow!  <br />
+Even though tensorflow is the most famous and popular machine learning framework, 
+it is definitely not friendly to beginners.</p>
+
+<p>I would recommend <a href="https://keras.io/layers/core/">Keras</a> and <a href="https://pytorch.org/">Pytorch</a>.</p>
+<figure>
+  
+  
+  
+    <img data-src="/assets/img/blog/DNN-resources/ranking.png" alt="ranking" class="lazyload" />
+
+  
+  
+</figure>
+
+<p>I like Keras because:<br />
+a) it supports multiple backend engines, including TensorFlow, CNTK, Theano, and MXNet;<br />
+b) it offers consistent and simple APIs that minimizes the number of actions required for common use cases.</p>
+
+<p>Keras offers <a href="https://github.com/keras-team/keras/tree/master/examples">offical examples</a>, implementations of <a href="https://github.com/keras-team/keras/tree/master/keras/applications">popular models</a>,
+and a number of <a href="https://keras.io/applications/">pre-trained models</a>.</p>
+
+<!-- Also, in the community, almost all the state-of-the-art models have their Keras versions.
+For example, [titu1994](https://github.com/titu1994) reimplements many famouse DNNs using Keras, including NasNet, non-local NN, mobileNet.
+So, you can easily play with the state-of-art model using Keras. -->
+
+  </div>
+  <div class="mt4 mb4"><div class="clearfix mxn1">
+  <div class="md-col md-col-6 px1">
+    
+      <a href="/writing/2017/09/17/my-first-blog/">
+        <div class="h6 caps gray">Previous</div>
+        <h4 class="mt0">My first blog</h4>
+      </a>
+    
+  </div>
+  <div class="md-col md-col-6 px1 right-align">
+    
+      <a href="/writing/2018/06/01/react-with-d3/">
+        <div class="h6 caps gray">Next</div>
+        <h4 class="mt0">D3.js with React</h4>
+      </a>    
+    
+  </div>
+</div></div>
+</div>
+  </main>
+  
+    <section class="bg-splash-gray px3 py3 border-top border-light-gray">
+  <div class="container block p3">
+    <a name="comments"></a>
+    <h4>Comments</h4>
+    <div id="disqus_thread"></div>
+  </div>
+</section>
+
+  
+  <footer class="sticky-footer border-top border-light-gray gray h6">
+  <div class="sm-col px2">
+    &copy; 2023 Xian Xu.    
+  </div>
+  <!-- <div class="sm-col-right px2">
+    
+      
+      <a href="https://github.com/xxuxian" target="_blank" class="gray hint--top" data-hint="GitHub">
+        <i class="fa fa-fw fa-lg fa-github-square"></i>
+      </a>
+    
+      
+      <a href="xian.xu@connect.ust.hk" target="_blank" class="gray hint--top" data-hint="Email">
+        <i class="fa fa-fw fa-lg fa-envelope-square"></i>
+      </a>
+    
+  </div> -->
+</footer>
+  <script type="text/javascript" src="/assets/js/main.js"></script>
+
+  <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'qianwen';
+    var disqus_identifier = '/writing/2018/05/28/learn-DL';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      
+
+      
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3107613-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
