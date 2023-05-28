@@ -1,121 +1,35 @@
-invited_talks:
-  subtitle: ""
-  talks:
-  - name: 'Interactive Visualizations for Usable AI: Bridge the Capabilities of AI with the Needs of Human Users'
-    locations: 
-    - '<b>Panel Presentation</b> at ChinaVis2022 AI+VIS'
-    - '<b>Guest Lecture</b> Visualization Summer School, Zhejiang University'
-    date: 'Jul 2022'
-    embed_url: "//www.slideshare.net/slideshow/embed_code/key/2QQ9zLUIWz3Uow?hostedIn=slideshare&page=upload" 
-    image_url: ""
-    description: 
-    links:
-    # - label: "Video"
-    #   url: "https://www.youtube.com/watch?v=z_D9oXCK2lM"
-    - label: "Slides"
-      url: https://www.slideshare.net/ssuserbe923f/bridge-the-capabilities-of-ai-with-the-needs-of-human-users
+- title: "Cambridge's first ever Theatre Hackathon (https://www.cdh.cam.ac.uk/events/36112/)"
+  url: "hackathon.jpg"
 
-  - name: 'Applying Machine Learning to Data Visualization: <br/> What, Why, When, and How'
-    locations: 
-    - '<b>Guest Lecture</b> AI+VIS Seminar, University of California, Davis'
-    date: 'Feb, 2022'
-    embed_url: "https://www.slideshare.net/slideshow/embed_code/key/pposTz9PZxIhzS?hostedIn=slideshare&page=upload"
-    image_url: ""
-    links:
-    - label: "Slides"
-      url: https://www.slideshare.net/ssuserbe923f/applying-machine-learning-to-data-visaulization-what-why-where-and-how
+- title: "Invited talk about VRAR Storytelling at FDUVIS (https://fduvis.net/) in Fudan University, Shanghai, March 2023"
+  url: "fudan.jpg"
 
-  - name: 'From Data to Decisions, a Mixed Path of Data Visualization and Machine Learning'
-    locations: 
-    - '<b>Keynote Presentation</b> PacificVIS22 VIS Meets AI Workshop'
-    embed_url: "https://www.slideshare.net/slideshow/embed_code/key/CAfBJvyxJHWXmM?hostedIn=slideshare&page=upload"
-    links:
-    - label: "Video"
-      url: "https://youtu.be/JHHbsZScFhs"
-    - label: "Slides"
-      url: "https://www.slideshare.net/ssuserbe923f/from-data-to-decisions-a-mixed-path-of-data-visualization-and-machine-learning"
-    - label: "Website Link"
-      url: "http://vis.tju.edu.cn/pvis2021/Invited_talks.html"
+- title: "Serving as a student ambassador at the HKUST(GZ) Information Hub Orientation, 2022"
+  url: "ustgz.jpg"
 
+- title: "Assisted in kidney organ transportation as a volunteer, July 2020"
+  url: "volun.jpg"
 
+- title: "Served as a counselor for the 2019 Opera Performance class at the Central Academy of Drama, 2019"
+  url: "counselor.jpg"
 
-paper_previews:
-  subtitle: Four cinematic data video endings with punctuation marks
-  talks:
-    - name: Nested Model for User-Centric XAI
-      # embed_url: 'https://www.youtube.com/embed/jmtnmikxJC4'
-      local_video: '/assets/videos/nest_preview.mp4'
-      video_poster: '/assets/img/projects/nest_xai.png'
-      description: Presented at IEEE VIS 2022 (<b>Best Paper Honorable Mention</b>) <br/> Presented at IMLH@ICML 2021 (<b>Best Paper</b>)
-      links:
-        - label: Read More...
-          url: ../research/#nest_xai
+- title: "Attended the 70th Anniversary Celebration of the founding of the People's Republic of China as a representative, 2019"
+  url: "anni.jpg"
 
-    - name: Survey on ML4VIS
-      # embed_url: 'https://www.youtube.com/embed/oMteYoVBRrs'
-      local_video: '/assets/videos/ml4vis_preview.mp4'
-      description: Presented at IEEE VIS 2022
-      links:
-        - label: Read More..
-          url: ../research/#ml4vis_survey
+- title: "The 2015 graduation performance of the Peking Opera Department of the Central Academy of Drama, where I served as a counselor, Dec 2018"
+  url: "grad.jpg"
 
-    
-    - name: Polyphony
-      # embed_url: 'TODO:'
-      local_video: '/assets/videos/polyphony_preview.mp4'
-      video_poster: '/assets/img/projects/polyphony.png'
-      description: Presented at IEEE VIS 2022  <br/> Presented at ISMB 2022 (<b>Best Long Abstract Award</b>)
-      links:
-        - label: Read More..
-          url: ../research/#polyphony
+- title: "Talk in The “Belt & Road” International Film Education Alliance, 2018"
+  url: "beltroad.jpg"
 
-    - name: Gosling Grammar for Genomic Visualization
-      embed_url: 'https://www.youtube.com/embed/Wvyb9dus9eU?start=5'
-      description: Presented at IEEE VIS 2021 <br/> Presented at ISMB 2021 (<b>Best Abstract Award</b>)
-      links:
-        - label: Read More..
-          url: ../research/#gosling
+- title: "Served as a counselor for the 2018 Dance Performance class at the Central Academy of Drama, 2018"
+  url: "counselor2.jpg"
 
-    - name: 'ThreadStates: State-based Visual Analysis for Disease Progression'
-      embed_url: "https://www.youtube.com/embed/BuripTHkSKk"
-      description: Presented at IEEE VIS 2021
-      links:
-        - label: Read More...
-          url: ../research/#threadstates
+- title: "Served as a counselor at the Central Academy of Drama, Sep 2018"
+  url: "counselor3.jpg"
 
-    - name: DiscriLens
-      embed_url: https://www.youtube.com/embed/-K5ZXfMNLVY
-      description: Presented at IEEE VIS 2020
-      links:
-        - label: Read More...
-          url: ../research/#discrilens
+- title: "Served as the director for the cultural evening event of the Beijing Graduate Party Member Cadre Training, June 2018"
+  url: "director.jpg"
 
-    - name: HypoML
-      embed_url: https://www.youtube.com/embed/rf-amrd2Goc
-      description: Presented at IEEE VIS 2020
-      links:
-        - label: Read More...
-          url: ../research/#hypoml
-
-    - name: ATMSeer
-      embed_url: https://www.youtube.com/embed/7QwN3mmiCzY
-      description: Presented at ACM CHI 2019
-      links:
-        - label: Read More...
-          url: ../research/#atmseer
-
-    - name: DNN Genealogy
-      embed_url: https://www.youtube.com/embed/OcyM14mdxe0
-      description: Presented at IEEE VIS 2019
-      links:
-        - label: Read More...
-          url: ../research/#dnn
-
-    - name: Narvis
-      embed_url: https://www.youtube.com/embed/bbRBzumBrX4
-      description: Presented at IEEE VIS 2018
-      links:
-        - label: Read More...
-          url: ../research/#narvis
-   
-
+- title: "Talk in the Beijing Excellent Middle-Aged and Young Arts Talent Pool, Dec 2017"
+  url: "talk.jpg"
