@@ -7,3 +7,14 @@ soundstage:
       links:
         - label: Read More...
           url: 'https://ieeexplore.ieee.org/abstract/document/10108863'
+
+cinematic:
+  subtitle: ""
+  talks:
+    - name: Data Video with a Full Stop Ending
+      embed_url: 'https://www.youtube.com/embed/4IMM4hm6u4s'
+      description: Through our interdisciplinary research based on data visualization and cinematic arts, we have generated four styles ending with a full stop, exclamation, question, and ellipsis, respectively. In 2022, the COVID-19 pandemic ravaged Hong Kong, and the death rate increased among the elderly due to their low vaccination rate. Using the same dataset, we created four data videos with different endings using punctuation marks. We hope that these can help the elderly in Hong Kong better understand vaccination knowledge and encourage them to get vaccinated. We aim to allow the general public to understand data more intuitively and effectively through our research combining data visualization and cinematic arts.
+
+      links:
+        - label: Project link...
+          url: 'https://cinematicendings.github.io/#/Gallery'
