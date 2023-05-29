@@ -46,10 +46,10 @@ contact_urls:
   #   url: "https://www.slideshare.net/brikis98"
   #   label: "SlideShare"
   #   icon: "slideshare"
-  # github:
-  #   url: "https://github.com/xxuxian"
-  #   label: "GitHub"
-  #   icon: "github-square"
+  github:
+    url: "https://github.com/xxuxian"
+    label: "GitHub"
+    icon: "github-square"
   email:
     url: "mailto: xian.xu@connect.ust.hk"
     label: "Email"
