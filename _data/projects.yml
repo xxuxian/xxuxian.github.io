@@ -5,7 +5,7 @@
   authors: <span class='black bold'>Xian Xu</span>, Aoyu Wu, Leni Yang, Zheng Wei, Rong Huang, David Yip, Huamin Qu
   image: "ending.png"
   attach:
-    - url: "https://dl.acm.org/doi/10.1145/3544548.3580701"
+    - url: "https://dl.acm.org/doi/pdf/10.1145/3544548.3580701"
       icon: file
       label: PDF
     - url: "https://cinematicendings.github.io/#/"
@@ -15,12 +15,12 @@
 
 - name: "From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles"  
   date: "2022"
-  detials: "https://doi.org/10.1145/3491102.3501896"
+  details: "https://doi.org/10.1145/3491102.3501896"
   publish: ACM CHI 2022
   authors: <span class='black bold'>Xian Xu</span>, Leni Yang, David Yip, Mingming Fan, Zheng Wei, Huamin Qu
   image: "opening.png"
   attach:
-    - url: "https://doi.org/10.1145/3491102.3501896"
+    - url: "https://dl.acm.org/doi/pdf/10.1145/3491102.3501896?casa_token=_e52ynRbiQoAAAAA:4xpwzL5SIaHrvBFlWXxsNlw9VbWqOXThX-noBVVsHwGjwOTfyusGZPJwQrDwUXWnrn84xIXqyrJslBU"
       icon: file
       label: PDF
 
@@ -34,6 +34,9 @@
     - url: "10.1109/VRW58643.2023.00128"
       icon: file
       label: PDF
+    - url: "https://cinematicendings.github.io/#/"
+      icon: home
+      label: webpage
 
 
 - name: "A Design Space for Applying the Freytag's Pyramid Structure to Data Stories"
@@ -43,6 +46,12 @@
   image: "tvcg_design_2021.png"
   authors: Leni Yang, <span class='black bold'>Xian Xu</span>, Xingyu Lan, Ziyan Liu, Shunan Guo, Yang Shi, Huamin Qu, Nan Cao
   attach:
+    - url: "https://idvxlab.com/papers/2021VIS_Pyramid_Yang.pdf"
+      icon: file
+      label: PDF
+    - url: "https://pyramidstory.idvxlab.com/#/"
+      icon: home
+      label: webpage 
 
 
 - name: "Understanding 3D data Videos: From Screens to Virtual Reality"
@@ -51,12 +60,11 @@
   image: "VR_Data_Videos.png"
   authors: Leni Yang, Aoyu Wu, Wai Tong, <span class='black bold'>Xian Xu</span>, Zheng Wei, Huamin Qu
   attach:
-    - url: "https://osf.io/gzu27/"
+    - url: "https://yleni.github.io/publications/pvis23_vrdatavideo.pdf"
       icon: file
       label: PDF
-    - url: "https://qianwen.info/DRAVA"
-      icon: home
-      label: webpage 
+    
+    
 
 - name: "The Design Space of Short Technical Storytelling Videos: Through the Lens of Preview Videos in VIS Conferences"
   date: "2023"

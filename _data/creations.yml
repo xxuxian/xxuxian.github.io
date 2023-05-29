@@ -98,3 +98,33 @@ book:
 
     - title: Sharing at 1200 bookshop, Guangzhou, Jan 2018
       url: 'sharing2.jpg'
+
+films:
+  subtitle: ""
+  videos:
+    - name: Mind Reader (2015) 
+      embed_url: 'https://www.youtube.com/embed/cnGEh5gRewM'
+      description: This compelling short film unfolds around a protagonist with impaired vision who ingeniously feigns blindness. He also masquerades as a mind reader. Yet, his perceived psychic abilities are in truth grounded in his keen observation of human behavior, through which he astutely discerns individuals' motivations and psychological states.
+
+    - name: AB Sides (2014)
+      embed_url: 'https://www.youtube.com/embed/cnGEh5gRewM'
+      description: Essentially, this is a tale of campus romance, marked by a unique dichotomy. A simple misunderstanding stemming from a phone number mix-up leads a girl to present herself as two distinctly different personalities during the day and night. By night, she engages in conversation with a gentle and warm demeanor, yet by day, she assumes an aloof and seemingly heartless guise. The story is imbued with the vibrancy and emotional fervor of youth.
+
+    - name: Hurt (2014)
+      embed_url: 'https://www.youtube.com/embed/cnGEh5gRewM'
+      description: This narrative delves into the emotional journey of a young woman navigating her first romantic relationship. As she attempts to discern the depth of a young man's affection for her, she grapples with the challenging choice between the man who loves her and the one she loves. Throughout this exploration, she matures into a woman who comprehends the complex facets of love with newfound clarity and insight.
+
+    - name: The Strange Girl (2014)
+      embed_url: 'https://www.youtube.com/embed/cnGEh5gRewM'
+      description: "This is a riveting tale of love entwined with suspense. Tragedy strikes when a boyfriend unintentionally forgets his girlfriend due to a sudden memory loss, leaving her in a state of bewilderment about the events that have transpired. As the story unfolds, the girlfriend realizes her hypersensitivity towards the boy has led to unexpected consequences. Confronted by these revelations, the boy finds himself compelled to depart. This poignant story reminds us of the painful truth: that excessive love can often inadvertently cause harm to those we hold dear."
+
+album: 
+  subtitle: ""
+  photos:
+    - name: Daytime in Kashgar
+      url: 'kashgar.jpg'
+      description: "This photo album presents the harmony of nature, human, culture, and religion in Kashgar, Xinjiang"
+      links:
+        - label: Link
+          url: 'https://ieeexplore.ieee.org/abstract/document/10108863'
+
