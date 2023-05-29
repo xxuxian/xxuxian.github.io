@@ -46,3 +46,55 @@ cinematic:
       links:
         - label: Project link...
           url: 'https://cinematicendings.github.io/#/Gallery'
+
+
+scriptwriting:
+  subtitle: ""
+  photos:
+    - title: A photo with the actress Zhao Liying on the film set
+      url: 'liying.png'
+
+    - title: A photo with the director on the film set
+      url: 'director.jpg'
+
+    - title: A photo with the actor Jin Han on the film set
+      url: 'jinhan.jpg'
+
+    - title: A photo with the actors Yu Haoming and Meng Rui on the film set
+      url: 'haoming.png'
+
+book:
+  subtitle: ""
+  photos:
+    - title: Multiple book presentations and sharing sessions for a new release were held at book fairs, universities, and high schools in Beijing, Guangzhou, Shenzhen, Nanjing, and Foshan, China in 2017-2018.
+      url: 'pre.jpg'
+
+    - title: Presentation at Beijing City University, Jan 2018
+      url: 'beijing1.jpg'
+
+    - title: Presentation at Beijing City University, Jan 2018
+      url: 'beijing2.jpg'
+
+    - title: Presentation at Beijing City University, Jan 2018
+      url: 'beijing3.jpg'
+
+    - title: Presentation at Beijing City University, Jan 2018
+      url: 'beijing4.jpg'
+
+    - title: At the 2017 South Country Book Festival, my new book was shared and media interviews were conducted with outlets such as television stations , in Guangzhou China, Aug 2017.
+      url: 'gz1.jpg'
+
+    - title: At the 2017 South Country Book Festival, my new book was shared and media interviews were conducted with outlets such as television stations , in Guangzhou China, Aug 2017.
+      url: 'gz2.jpg'
+
+    - title: At the 2017 South Country Book Festival, my new book was shared and media interviews were conducted with outlets such as television stations , in Guangzhou China, Aug 2017.
+      url: 'gz3.jpg'
+
+    - title: At the 2017 South Country Book Festival, my new book was shared and media interviews were conducted with outlets such as television stations , in Guangzhou China, Aug 2017.
+      url: 'gz4.jpg'
+
+    - title: Sharing at 1200 bookshop, Guangzhou, Jan 2018
+      url: 'sharing1.jpg'
+
+    - title: Sharing at 1200 bookshop, Guangzhou, Jan 2018
+      url: 'sharing2.jpg'

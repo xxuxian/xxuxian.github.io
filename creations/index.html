@@ -34,6 +34,7 @@ nav_item: creationss
 
 <h3 class="px3">Four cinematic data video endings with punctuation marks (2022)</h3>
 
+<div class="flex flex-wrap flex-start">
   {% for poster in site.data.creations.cinematic.posters %}
     <div class="col sm-col-12 px2 mt2 mb0 {% if forloop.last %}mb0{% endif %}" style="min-height: 120px">
         <a href="/assets/img/projects/{{poster.url}}" target="_blank" class="block button button-transparent button-narrow border border-light-gray px1 py1">
@@ -46,8 +47,8 @@ nav_item: creationss
           </a>
       </div>
   {% endfor %}
+</div>
 
-<h5 class="px3">Videos</h5>
 <div>
   <div class="flex flex-wrap flex-start">
     {% for talk in site.data.creations.cinematic.talks %}
@@ -74,7 +75,39 @@ nav_item: creationss
 
 <h3 class="px3">My television scriptwriting work <a href="https://en.wikipedia.org/wiki/Our_Glamorous_Time" target="_blank">Our Glamorous Time</a></h3>
 
+<div class="flex flex-wrap flex-start">
+{% for photo in site.data.creations.scriptwriting.photos %}
+<div class="col sm-col-6 px2 mt2 mb2 {% if forloop.last %}mb4{% endif %}" style="min-height: 300px">
+    <a href="/assets/img/photos/glamorous_time/{{photo.url}}" target="_blank" class="block button button-transparent button-narrow border border-light-gray px1 py1">
+      <img 
+      style= "image-orientation: from-image;"
+    data-src="/assets/img/photos/glamorous_time/{{photo.url}}" alt="{{photo.title}}" class="valign-middle lazyload">
+      <div class="px1 pt1 center">
+        <span class="mt0 mb0 h6 header-font">{{photo.title}}</span>
+      </div>
+      </a>
+  </div>
+{% endfor %}
+</div>
+
+
+
 <h3 class="px3">My first book I Like To Be Independent</h3>
+
+<div class="flex flex-wrap flex-start">
+  {% for photo in site.data.creations.book.photos %}
+  <div class="col sm-col-6 px2 mt2 mb2 {% if forloop.last %}mb4{% endif %}" style="min-height: 300px">
+      <a href="/assets/img/photos/book/{{photo.url}}" target="_blank" class="block button button-transparent button-narrow border border-light-gray px1 py1">
+        <img 
+        style= "image-orientation: from-image;"
+      data-src="/assets/img/photos/book/{{photo.url}}" alt="{{photo.title}}" class="valign-middle lazyload">
+        <div class="px1 pt1 center">
+          <span class="mt0 mb0 h6 header-font">{{photo.title}}</span>
+        </div>
+        </a>
+    </div>
+  {% endfor %}
+  </div>
 
 <h3 class="px3">My short film work as a director and screenwriter</h3>
 
