@@ -119,3 +119,13 @@ paper_previews:
           url: ../research/#narvis
    
 
+soundstage:
+  subtitle: ""
+  talks:
+    - name: "Cinematography in the Metaverse: Exploring the Lighting Education on a Soundstage"
+      embed_url: https://youtu.be/cnGEh5gRewM
+      #local_video: '/assets/videos/Art_Mirror.mp4'
+      # video_poster: '/assets/img/projects/nest_xai.png'
+      description: We created a virtual soundstage for cinematography lighting education. 
+      This virtual soundstage is primarily designed to address the issue of studio space and 
+      to explore the possibilities of cinematography lighting education in VR environments.

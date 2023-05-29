@@ -10,11 +10,27 @@ nav_item: creationss
 
 <h3 class="px3">Cinematography in the Metaverse: Exploring the Lighting Education on a Soundatsge</h3>
 
-<p> 
-  We created a virtual soundstage for cinematography lighting education. 
-  This virtual soundstage is primarily designed to address the issue of 
-  studio space and to explore the possibilities of cinematography lighting education in VR environments.
-</p>
+<div class="flex flex-wrap flex-start">
+  {% for talk in site.data.creations.soundstage %}
+    <div class="border-bottom border-light-gray px3 md-col-6 sm-col-12">
+      
+      <div class="iframe-wrapper">
+        {% if talk.embed_url %}
+        <iframe data-src="{{ talk.embed_url }}" frameborder="0" allowfullscreen class="lazyload"></iframe>
+        {% else %}
+        <video controls poster="{{talk.video_poster}}"> <source src='{{talk.local_video}}' type="video/mp4"/> </video>
+        {% endif %}
+      </div>
+        <p class="h5 bold mb0">{{ talk.name }}</p> 
+        <span class="h5">{{ talk.description }}</span>
+      <p class="h6 mb0 tight-line-height">
+        {% for link in talk.links %}
+          <a href="{{ link.url }}" target="_blank">{{ link.label }}</a>{% unless forloop.last %}|{% endunless %}
+        {% endfor %}      
+      </p>
+    </div>
+  {% endfor %}
+  </div>
 
 <div class="flex flex-wrap flex-start">
 {% for talk in site.data.talks.invited_talks.talks %}
