@@ -13,18 +13,18 @@ nav:
     CV: "/CV"
     # blogs: "/writing"
     Life: "/photos"
-    Creation: "/creations"
+    Creations: "/creations"
 
-  blogs:
-    all: "/writing"
-    popular: "/writing/popular"
-    tags: "/writing/tags"
-    rss: "/feed.xml"
+  # blogs:
+  #   all: "/writing"
+  #   popular: "/writing/popular"
+  #   tags: "/writing/tags"
+  #   rss: "/feed.xml"
 
 # Bio settings
 name: "Xian Xu"
 description: "The home page of Xian Xu, co-founder of Gruntwork, author of &quot;Hello, Startup&quot; and &quot;Terraform: Up & Running&quot;, and software engineer at LinkedIn, TripAdvisor, Cisco Systems, and Thomson Financial."
-thumbnail_path: "profile-photos/xian.jpg"
+thumbnail_path: "/assets/photos/profile-photos/xian.jpg"
 
 
 # URLs
