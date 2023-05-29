@@ -1,5 +1,6 @@
-# Qianwen's Home Page
-fork from [Yevgeniy Brikman](https://github.com/brikis98/yevgeniy-brikman-homepage)
+# Xian's Home Page
+fork from [Qianwen Wang](https://qianwen.info)
+ and [Yevgeniy Brikman](https://github.com/brikis98/yevgeniy-brikman-homepage)
 
 ## Quick start
 
