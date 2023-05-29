@@ -7,63 +7,6 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>那些素不相识的reviwer</title>
-                
-        
-          <description>&lt;p&gt;这篇文章，初稿是完成VIS18 camera ready paper的时候写的。
-结果一直拖拖拉拉，直到现在写好。&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Wed, 01 Aug 2018 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/writing/2018/08/01/thanks-to-reviewers/</link>
-        <guid isPermaLink="true">http://localhost:4000/writing/2018/08/01/thanks-to-reviewers/</guid>
-      </item>
-    
-      <item>
-        <title>2017-2018读书笔记：给我力量的三本书</title>
-                
-        
-          <description>&lt;p&gt;想记录一下2017-2018，在所有不开心的日子里，给我力量的三本书。&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Sun, 01 Jul 2018 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/writing/2018/07/01/books/</link>
-        <guid isPermaLink="true">http://localhost:4000/writing/2018/07/01/books/</guid>
-      </item>
-    
-      <item>
-        <title>D3.js with React</title>
-                
-        
-          <description>&lt;p&gt;&lt;a href=&quot;https://d3js.org/&quot;&gt;D3.js&lt;/a&gt; is one of the best available options for data visualization. 
-Since its creation in 2011, it has become the de facto for bulding data visualziations on the web.
-&lt;a href=&quot;https://reactjs.org/&quot;&gt;React&lt;/a&gt;, in my opionion, is obviously the best library. 
-It’s simple, declarative, and composable.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Fri, 01 Jun 2018 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/writing/2018/06/01/react-with-d3/</link>
-        <guid isPermaLink="true">http://localhost:4000/writing/2018/06/01/react-with-d3/</guid>
-      </item>
-    
-      <item>
-        <title>Some Helpful Resources for Learning DNNs</title>
-                
-        
-          <description>&lt;p&gt;I list some helpful resources for learning deep neural networks based on my learning experience. 
-Will update from time to time.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Mon, 28 May 2018 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/writing/2018/05/28/learn-DL/</link>
-        <guid isPermaLink="true">http://localhost:4000/writing/2018/05/28/learn-DL/</guid>
-      </item>
-    
-      <item>
         <title>My first blog</title>
                 
         
