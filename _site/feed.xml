@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Xian Xu</title>
-    <description>The home page of Xian Xu, co-founder of Gruntwork, author of &amp;quot;Hello, Startup&amp;quot; and &amp;quot;Terraform: Up &amp; Running&amp;quot;, and software engineer at LinkedIn, TripAdvisor, Cisco Systems, and Thomson Financial.</description>    
+    <description>The home page of Xian Xu</description>    
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
