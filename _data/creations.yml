@@ -2,7 +2,7 @@ soundstage:
   subtitle: ""
   talks:
     - name: Cinematography in the Metaverse - Exploring the Lighting Education on a Soundstage
-      embed_url: 'https://www.youtube.com/watch?v=cnGEh5gRewM'
+      embed_url: 'https://www.youtube.com/embed/cnGEh5gRewM'
       description: We created a virtual soundstage for cinematography lighting education. This virtual soundstage is primarily designed to address the issue of studio space and to explore the possibilities of cinematography lighting education in VR environments.
       links:
         - label: Read More...
