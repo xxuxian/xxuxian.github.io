@@ -55,6 +55,10 @@ contact_urls:
     label: "Email"
     value: "xian.xu@connect.ust.hk"
     icon: "envelope-square"
+  scholar:
+    url: "https://scholar.google.com/citations?user=jffJ5uoAAAAJ&hl=en&oi=ao"
+    label: "Google Scholar"
+    icon: "graduation-cap"
   
 
 # Jekyll build settings
