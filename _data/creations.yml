@@ -114,8 +114,8 @@ films:
       embed_url: 'https://www.youtube.com/embed/xS2J7Gs4Too'
       description: This narrative delves into the emotional journey of a young woman navigating her first romantic relationship. As she attempts to discern the depth of a young man's affection for her, she grapples with the challenging choice between the man who loves her and the one she loves. Throughout this exploration, she matures into a woman who comprehends the complex facets of love with newfound clarity and insight.
 
+  texts:
     - name: The Strange Girl (2014)
-      embed_url: 'https://www.youtube.com/embed/cnGEh5gRewM'
       description: "This is a riveting tale of love entwined with suspense. Tragedy strikes when a boyfriend unintentionally forgets his girlfriend due to a sudden memory loss, leaving her in a state of bewilderment about the events that have transpired. As the story unfolds, the girlfriend realizes her hypersensitivity towards the boy has led to unexpected consequences. Confronted by these revelations, the boy finds himself compelled to depart. This poignant story reminds us of the painful truth: that excessive love can often inadvertently cause harm to those we hold dear."
 
 album: 
