@@ -26,17 +26,15 @@
 
 - name: "Cinematography in the Metaverse: Exploring the Lighting Education on a Soundstage"
   date: "2023"
-  details: "10.1109/VRW58643.2023.00128"
+  details: "https://ieeexplore.ieee.org/abstract/document/10108863"
   publish: IEEE VR Poster 2023
   authors: <span class='black bold'>Xian Xu</span>, Wai Tong, Zheng Wei, Meng Xia, Lik-Hang Lee, Huamin Qu
   image: "ArtMirror.png"
   attach:
-    - url: "10.1109/VRW58643.2023.00128"
+    - url: "https://ieeexplore.ieee.org/abstract/document/10108863"
       icon: file
       label: PDF
-    - url: "https://cinematicendings.github.io/#/"
-      icon: home
-      label: webpage
+
 
 
 - name: "A Design Space for Applying the Freytag's Pyramid Structure to Data Stories"
