@@ -39,7 +39,7 @@
 
 - name: "A Design Space for Applying the Freytag's Pyramid Structure to Data Stories"
   date: "2021"
-  details: https://qianwen.info/DRAVA
+  details: https://ieeexplore.ieee.org/document/9552203
   publish: IEEE VIS 2021 (TVCG)
   image: "tvcg_design_2021.png"
   authors: Leni Yang, <span class='black bold'>Xian Xu</span>, Xingyu Lan, Ziyan Liu, Shunan Guo, Yang Shi, Huamin Qu, Nan Cao
