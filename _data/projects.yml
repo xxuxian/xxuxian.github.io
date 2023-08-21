@@ -29,7 +29,7 @@
   details: "https://ieeexplore.ieee.org/abstract/document/10108863"
   publish: IEEE VR Poster 2023
   authors: <span class='black bold'>Xian Xu</span>, Wai Tong, Zheng Wei, Meng Xia, Lik-Hang Lee, Huamin Qu
-  image: "ArtMirror.png"
+  image: "lighting.jpg"
   attach:
     - url: "https://ieeexplore.ieee.org/abstract/document/10108863"
       icon: file
@@ -69,6 +69,7 @@
 - name: "Feeling Present! From Physical to Virtual Cinematography Lighting Education with Metashadow"
   date: "2023"
   publish: ACM MM 2023 (To appear)
+  image: "metashadow.jpg"
   authors: Zheng Wei, <span class='black bold'>Xian Xu</span>, Lik-Hang Lee, Wai Tong, Huamin Qu, Pan Hui
 
 - name: "The Golden Ratio in Narrative Structure: Visualizing the Rising-Climax in Data Videos"
@@ -79,11 +80,13 @@
 - name: "Visualizing Film Set Communication: An Interactive Interface for Collaboration in Virtual LED Production"
   date: "2023"
   publish: ISMAR 2023 (Under Review)
+  image: "led.jpg"
   authors: Zheng Wei, Shan Jin, <span class='black bold'>Xian Xu</span>, Wai Tong, Zheng Wei, Huamin Qu, Pan Hui
 
 - name: "Transforming Cinematography Lighting Education: The Impact of Virtual Soundstages"
   date: "2023"
   publish: Virtual Reality Journal 2023 (Under Review)
+  image: "soundstages.jpg"
   authors: <span class='black bold'>Xian Xu</span>, Wai Tong, Zheng Wei, Meng Xia, Lik-Hang Lee, Huamin Qu
 
 
