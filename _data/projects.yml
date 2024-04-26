@@ -68,9 +68,14 @@
 
 - name: "Feeling Present! From Physical to Virtual Cinematography Lighting Education with Metashadow"
   date: "2023"
-  publish: ACM MM 2023 (To appear)
+  publish: ACM MM 2023
   image: "metashadow.jpg"
   authors: Zheng Wei, <span class='black bold'>Xian Xu</span>, Lik-Hang Lee, Wai Tong, Huamin Qu, Pan Hui
+attach:
+    - url: "https://dl.acm.org/doi/pdf/10.1145/3581783.3612580"
+      icon: file
+      label: PDF
+
 
 - name: "The Golden Ratio in Narrative Structure: Visualizing the Rising-Climax in Data Videos"
   date: "2023"
