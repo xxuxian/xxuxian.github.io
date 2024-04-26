@@ -71,7 +71,7 @@
   publish: ACM MM 2023
   image: "metashadow.jpg"
   authors: Zheng Wei, <span class='black bold'>Xian Xu</span>, Lik-Hang Lee, Wai Tong, Huamin Qu, Pan Hui
-attach:
+  attach:
     - url: "https://dl.acm.org/doi/pdf/10.1145/3581783.3612580"
       icon: file
       label: PDF
