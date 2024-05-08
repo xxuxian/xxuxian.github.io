@@ -89,7 +89,7 @@ attach:
 
 - name: "Digital Democracy at Crossroads: A Meta-Analysis of Web and AI Influence on Global Elections"
   date: "2024"
-  publish: ACM WWWW (The Web Conference) 2024
+  publish: ACM WWW (The Web Conference) 2024
   image: "led.jpg"
   authors: Zheng Wei, <span class='black bold'>Xian Xu</span>, Pan Hui
   attach:
