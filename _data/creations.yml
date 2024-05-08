@@ -128,3 +128,13 @@ album:
         - label: Link
           url: 'https://ieeexplore.ieee.org/abstract/document/10108863'
 
+
+new_project:
+  subtitle: ""
+  photos:
+    - name: Photo Name
+      url: somewhere in the assets
+      description: "Some descriptions"
+      links:
+        - label: Link
+          url: url of the place you want to go
