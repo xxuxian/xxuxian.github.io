@@ -1,11 +1,22 @@
 - name: "Telling Data Stories with the Hero’s Journey: Design Guidance for Creating Data Videos"
   date: "2024"
   details: "https://ieeevis.org/year/2024/program/paper_v-full-1333.html"
-  publish: IEEE VIS 2024
+  publish: IEEE VIS 2024 (TVCG)
   authors: Zheng Wei, Huamin Qu, <span class='black bold'>Xian Xu</span>
   image: "vishero.png"
   attach:
     - url: "http://vis.cse.ust.hk/groups/storytelling/assets/papers/2024-VIS-Hero.pdf"
+      icon: file
+      label: PDF
+
+- name: "Hearing the Moment with MetaEcho! From Physical to Virtual in Synchronized Sound Recording"
+  date: "2024"
+  details: "https://doi.org/10.1145/3664647.3681004"
+  publish: ACM Mutimedia 2024
+  authors: Zheng Wei, Yuzheng Chen, Wai Tong, Xuan Zong, Huamin Qu, <span class='black bold'>Xian Xu*</span>, Lik-Hang Lee* (*corresponding authors)
+  image: "metaecho.png"
+  attach:
+    - url: "https://www.researchgate.net/publication/382887166_Hearing_the_Moment_with_MetaEcho_From_Physical_to_Virtual_in_Synchronized_Sound_Recording"
       icon: file
       label: PDF
 
@@ -78,7 +89,7 @@
 
 - name: "Feeling Present! From Physical to Virtual Cinematography Lighting Education with Metashadow"
   date: "2023"
-  publish: ACM MM 2023
+  publish: ACM Mutimedia 2023
   image: "metashadow.jpg"
   authors: Zheng Wei, <span class='black bold'>Xian Xu</span>, Lik-Hang Lee, Wai Tong, Huamin Qu, Pan Hui
   attach:
