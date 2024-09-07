@@ -5,7 +5,7 @@
   authors: Zheng Wei, Huamin Qu, <span class='black bold'>Xian Xu</span>
   image: "vishero.png"
   attach:
-    - url: "http://vis.cse.ust.hk/groups/storytelling/assets/papers/2024-VIS-Hero.pdf"
+    - url: "./assets/pdf/Vis_24.pdf"
       icon: file
       label: PDF
 
