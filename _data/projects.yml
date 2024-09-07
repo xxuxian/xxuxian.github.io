@@ -12,7 +12,7 @@
 - name: "Hearing the Moment with MetaEcho! From Physical to Virtual in Synchronized Sound Recording"
   date: "2024"
   details: "https://doi.org/10.1145/3664647.3681004"
-  publish: ACM Mutimedia 2024
+  publish: ACM Multimedia 2024
   authors: Zheng Wei, Yuzheng Chen, Wai Tong, Xuan Zong, Huamin Qu, <span class='black bold'>Xian Xu*</span>, Lik-Hang Lee* (*corresponding authors)
   image: "metaecho.png"
   attach:
@@ -89,7 +89,7 @@
 
 - name: "Feeling Present! From Physical to Virtual Cinematography Lighting Education with Metashadow"
   date: "2023"
-  publish: ACM Mutimedia 2023
+  publish: ACM Multimedia 2023
   image: "metashadow.jpg"
   authors: Zheng Wei, <span class='black bold'>Xian Xu</span>, Lik-Hang Lee, Wai Tong, Huamin Qu, Pan Hui
   attach:
