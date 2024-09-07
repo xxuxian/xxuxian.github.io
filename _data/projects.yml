@@ -1,3 +1,14 @@
+- name: "Telling Data Stories with the Hero’s Journey: Design Guidance for Creating Data Videos"
+  date: "2024"
+  details: "https://dl.acm.org/doi/10.1145/3544548.3580701"
+  publish: IEEE VIS 2024
+  authors: Zheng Wei, Huamin Qu, <span class='black bold'>Xian Xu</span>
+  image: "vishero.png"
+  attach:
+    - url: "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/http://vis.cse.ust.hk/groups/storytelling/assets/papers/2024-VIS-Hero.pdf"
+      icon: file
+      label: PDF
+
 - name: "Is It the End? Guidelines for Cinematic Endings in Data Videos"
   date: "2023"
   details: "https://dl.acm.org/doi/10.1145/3544548.3580701"
@@ -10,8 +21,7 @@
       label: PDF
     - url: "https://cinematicendings.github.io/#/"
       icon: home
-      label: webpage
-    
+      label: webpage  
 
 - name: "From 'Wow' to 'Why': Guidelines for Creating the Opening of a Data Video with Cinematic Styles"  
   date: "2022"
