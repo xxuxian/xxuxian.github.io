@@ -5,7 +5,7 @@
   authors: Zheng Wei, Huamin Qu, <span class='black bold'>Xian Xu</span>
   image: "vishero.png"
   attach:
-    - url: "./assets/pdf/Vis_24.pdf"
+    - url: "../assets/pdf/Vis_24.pdf"
       icon: file
       label: PDF
 
