@@ -1,4 +1,32 @@
 - label: other
+  title: Congratulations on the acceptance of our paper (Telling Data Stories with the Hero’s Journey) at IEEE VIS'24, and one paper (Hearing the Moment with MetaEcho) at ACM MM'24!
+  date: Aug, 2024
+
+- label: travel
+  title: Our poster <a class='news-link' href='https://dl.acm.org/doi/10.1145/3641234.3671022' target='_blank'>MetaCrew</a> be presenred at ACM SIGGRAPH 2024, 📍 Denver, USA
+  date: July, 2024
+
+- label: travel
+  title: Attended ACM WWW 2024 and presented a paper <a class='news-link' href='https://dl.acm.org/doi/10.1145/3589335.3652003' target='_blank'>DigitalDemocracyAtCrossroads</a>, 📍 Singapore
+  date: May, 2024
+
+- label: travel
+  title: Our paper <a class='news-link' href='https://dl.acm.org/doi/abs/10.1145/3581783.3612580' target='_blank'>FeelingPresent</a>be oral presented at ACM MM 2023 Conference, 📍 Ottawa, Canada
+  date: Nov, 2023
+
+- label: travel
+  title: Attended IEEE VIS 2023 Conference and presented a poster <https://virtual.ieeevis.org/year/2023/poster_v-vis-posters-1068.html' target='_blank'>VisualizingClimax</a>, 📍 Melbourne, Australia
+  date: Oct, 2023
+
+- label: other
+  title: Invited talk in Phoenix Satellite Televion（鳳凰衛視）, topic on How to Use Data Visualization in News Video Production, 📍 Hongkong, China
+  date: Oct, 2023
+
+- label: other
+  title: Invited talk in HKUST(GZ) CMA Seminar, 📍 Guanghzhou, China
+  date: Oct, 2023
+
+- label: other
   title: Obtained a Ph.D. degree and became the first doctoral graduate in Computational Media and Arts at HKUST 🎓
   date: Aug, 2023
 
