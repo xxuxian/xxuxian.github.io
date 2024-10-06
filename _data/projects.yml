@@ -25,7 +25,7 @@
   details: "https://dl.acm.org/doi/proceedings/10.1145/3641234"
   publish: ACM SIGGRAPH 2024 Posters
   authors: Zheng Wei, Shan Jin, Wai Tong, David Kei Man Yip, Pan Hui, <span class='black bold'>Xian Xu</span>
-  image: "led2.png"
+  image: "led2.jpg"
   attach:
     - url: "https://dl.acm.org/doi/10.1145/3641234.3671022"
       icon: file
