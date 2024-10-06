@@ -20,6 +20,17 @@
       icon: file
       label: PDF
 
+- name: "Multi-Role VR Training System for Film Production: Enhancing Collaboration with MetaCrew"
+  date: "2024"
+  details: "https://dl.acm.org/doi/proceedings/10.1145/3641234"
+  publish: ACM SIGGRAPH 2024 Posters
+  authors: Zheng Wei, Shan Jin, Wai Tong, David Kei Man Yip, Pan Hui, <span class='black bold'>Xian Xu</span>
+  image: "led2.png"
+  attach:
+    - url: "https://dl.acm.org/doi/10.1145/3641234.3671022"
+      icon: file
+      label: PDF
+
 - name: "Is It the End? Guidelines for Cinematic Endings in Data Videos"
   date: "2023"
   details: "https://dl.acm.org/doi/10.1145/3544548.3580701"
@@ -114,7 +125,7 @@
   image: "led.jpg"
   authors: Zheng Wei, <span class='black bold'>Xian Xu</span>, Pan Hui
   attach:
-    - url: "https://www2024.thewebconf.org/accepted/history-web/"
+    - url: "https://dl.acm.org/doi/10.1145/3589335.3652003"
       icon: file
       label: PDF
 
