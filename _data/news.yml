@@ -18,6 +18,10 @@
   title: Gave an invited talk and organized an art workshop at ChinaVis 2024, 📍 Hong Kong, China
   date: July, 2024
 
+- label: talk
+  title: Gave an invited talk at Singapore Management University, 📍 Singapore
+  date: May, 2024
+
 - label: travel
   title: Attended ACM WWW 2024 and presented a paper <a class='news-link' href='https://dl.acm.org/doi/10.1145/3589335.3652003' target='_blank'>DigitalDemocracy</a>, 📍 Singapore
   date: May, 2024
@@ -57,6 +61,10 @@
 - label: paper
   title: Presented a paper <a class='news-link' href='https://dl.acm.org/doi/fullHtml/10.1145/3544548.3580701' target='_blank'>CinematicEnding</a> at ACM CHI 2023 Conference, 📍 Hamburg, Germany
   date: Apr, 2023
+
+- label: talk
+  title: Gave an invited talk in Fudan University (FDU-VIS), 📍 Shanghai, China
+  date: Mar, 2023
 
 - label: paper
   title: Presented a poster <a class='news-link' href='https://ieeexplore.ieee.org/document/10108863' target='_blank'>MetaverseCinematography</a> at IEEE VR 2023 Conference, 📍 Shanghai, China
