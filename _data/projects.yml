@@ -36,6 +36,10 @@
   details: ACM Conference on Human Factors in Computing Systems (Proceedings of ACM CHI'25, oral), 2025
   authors: Junxiang Liao, Zheng Wei, Zeyu Yang, <span class='black bold'>Xian Xu</span>, Pan Hui, Changyang He, Muzhi Zhou
   image: 'chi25_2.png'
+  attach: 
+    - url: "https://dl.acm.org/doi/10.1145/3706598.3713763"
+      icon: file
+      label: PDF
 
 
 - name: "Symbiosis of Agents: A Robotic Tapestry of Agency, Ethics, and Interstellar Dreams"
@@ -44,10 +48,6 @@
   publish: IEEE International Conference on Robotics and Automation (ICRA'25), 2025
   authors: Baoyan Chen, <span class='black bold'>Xian Xu</span>, Huamin Qu
   image: 'icra25.png'
-  attach: 
-    - url: "../assets/pdf/ICRA_25.pdf"
-      icon: file
-      label: PDF
 
 - name: "'I Can’t Even Recall What I Bought': How Design Influences Impulsive Buying in Douyin Live Sales"
   date: "2025"
