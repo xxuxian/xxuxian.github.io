@@ -47,14 +47,14 @@
   details: 
   publish: IEEE International Conference on Robotics and Automation (ICRA'25), 2025
   authors: Baoyan Chen, <span class='black bold'>Xian Xu</span>, Huamin Qu
-  image: 'icra25.png'
+  image: 'icra25.jpg'
 
 - name: "'I Can’t Even Recall What I Bought': How Design Influences Impulsive Buying in Douyin Live Sales"
   date: "2025"
   details: https://www.tandfonline.com/doi/full/10.1080/10447318.2025.2483856
   publish: International Journal of Human Computer Interaction (IJHCI)
   authors: Zheng Wei, Lik-hang Lee, Wai Tong, <span class='black bold'>Xian Xu</span>, Chaozhe Zhang, Huamin Qu, Pan Hui
-  image: 'impulsive.png'
+  image: 'ijhci25.png'
   attach: 
     - url: "../assets/pdf/IJHCI_25.pdf"
       icon: file
