@@ -1,13 +1,16 @@
 - name: "Illuminating the Scene: How Virtual Environments and Learning Modes Shape Film Lighting Mastery in Virtual Reality"
   date: "2025"
   details: 
-  publish: IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE VR'25), <span class='black bold'>Best Paper Award Honorable Mention</span>
+  publish: IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE VR'25)<br/> 🏆 <span class="orange">Best Paper Honorable Mention</span>
   authors: Zheng Wei, Jin Shan, Junxiang Liao, Lik-hang Lee, Chan In SIO, Pan Hui, Huamin Qu, Wai Tong*, <span class='black bold'>Xian Xu*</span> (*corresponding author)
   image: 'vr25.png'
   attach: 
     - url: "../assets/pdf/VR_25.pdf"
       icon: file
       label: PDF
+    - url: "https://ieeexplore.ieee.org/document/10916813"
+      icon: home
+      label: webpage
 
 - name: "Symbiosis of Agents"
   date: "2025"
@@ -195,5 +198,9 @@
   publish: Visual Informatics
   image: "soundstages.jpg"
   authors: <span class='black bold'>Xian Xu</span>, Wai Tong, Zheng Wei, Meng Xia, Lik-Hang Lee, Huamin Qu
+  attach:
+    - url: "https://www.sciencedirect.com/science/article/pii/S2468502X24000688"
+      icon: home
+      label: webpage
 
 
