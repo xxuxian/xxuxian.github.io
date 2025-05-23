@@ -33,14 +33,13 @@
 
 - name: "'Even When Success Seems Impossible, I Keep Streaming': How Do Chinese Elderly Streamers Interact with Platform Algorithmic (In)visibility"
   date: "2025"
-  details: ACM Conference on Human Factors in Computing Systems (Proceedings of ACM CHI'25, oral), 2025
+  publish: ACM Conference on Human Factors in Computing Systems (Proceedings of ACM CHI'25, oral), 2025
   authors: Junxiang Liao, Zheng Wei, Zeyu Yang, <span class='black bold'>Xian Xu</span>, Pan Hui, Changyang He, Muzhi Zhou
   image: 'chi25_2.png'
   attach: 
     - url: "https://dl.acm.org/doi/10.1145/3706598.3713763"
       icon: file
       label: PDF
-
 
 - name: "Symbiosis of Agents: A Robotic Tapestry of Agency, Ethics, and Interstellar Dreams"
   date: "2025"
@@ -193,7 +192,7 @@
 
 - name: "Transforming Cinematography Lighting Education in the Metaverse"
   date: "2024"
-  publish: Visaul Informatics
+  publish: Visual Informatics
   image: "soundstages.jpg"
   authors: <span class='black bold'>Xian Xu</span>, Wai Tong, Zheng Wei, Meng Xia, Lik-Hang Lee, Huamin Qu
 
