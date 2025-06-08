@@ -200,7 +200,7 @@
   authors: <span class='black bold'>Xian Xu</span>, Wai Tong, Zheng Wei, Meng Xia, Lik-Hang Lee, Huamin Qu
   attach:
     - url: "https://www.sciencedirect.com/science/article/pii/S2468502X24000688"
-      icon: home
-      label: webpage
+      icon: file
+      label: PDF
 
 
