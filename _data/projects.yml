@@ -38,7 +38,7 @@
 - name: "TangibleNet: Synchronous Network Data Storytelling through Tangible Interactions in Augmented Reality"
   date: "2025"
   details: 
-  publish: ACM Conference on Human Factors in Computing Systems (Proceedings of ACM CHI'25), 2025
+  publish: ACM Conference on Human Factors in Computing Systems (ACM CHI'25), 2025
   authors: Kentaro Takahira, Wong Kam-Kwai, Leni Yang, <span class='black bold'>Xian Xu</span>, Takanori Fujiwara, Huamin Qu
   image: 'chi25.png'
   attach: 
@@ -48,7 +48,7 @@
 
 - name: "'Even When Success Seems Impossible, I Keep Streaming': How Do Chinese Elderly Streamers Interact with Platform Algorithmic (In)visibility"
   date: "2025"
-  publish: ACM Conference on Human Factors in Computing Systems (Proceedings of ACM CHI'25), 2025
+  publish: ACM Conference on Human Factors in Computing Systems (ACM CHI'25), 2025
   authors: Junxiang Liao, Zheng Wei, Zeyu Yang, <span class='black bold'>Xian Xu</span>, Pan Hui, Changyang He, Muzhi Zhou
   image: 'chi25_2.png'
   attach: 
