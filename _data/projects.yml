@@ -12,6 +12,13 @@
       icon: home
       label: webpage
 
+- name: "At the Peak: Empirical Patterns for Creating Climaxes in Data Videos"
+  date: "2025"
+  details: 
+  publish: IEEE Transactions on Visualization and Computer Graphics, 2025
+  authors: Zheng Wei, Yuelu Li, Wenchuan Lu, Qiming Gu, Huamin Qu, <span class='black bold'>Xian Xu*</span> (*corresponding author)
+  image: 'vis25.png'
+
 - name: "Symbiosis of Agents"
   date: "2025"
   details: 
