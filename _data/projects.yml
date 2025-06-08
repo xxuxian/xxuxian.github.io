@@ -1,7 +1,7 @@
 - name: "Illuminating the Scene: How Virtual Environments and Learning Modes Shape Film Lighting Mastery in Virtual Reality"
   date: "2025"
   details: 
-  publish: IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE VR'25)<br/> 🏆 <span class="orange">Best Paper Honorable Mention</span>
+  publish: IEEE Transactions on Visualization and Computer Graphics (IEEE VR'25)<br/> 🏆 <span class="orange">Best Paper Honorable Mention</span>
   authors: Zheng Wei, Jin Shan, Junxiang Liao, Lik-hang Lee, Chan In SIO, Pan Hui, Huamin Qu, Wai Tong*, <span class='black bold'>Xian Xu*</span> (*corresponding author)
   image: 'vr25.png'
   attach: 
@@ -59,8 +59,8 @@
 - name: "Symbiosis of Agents: A Robotic Tapestry of Agency, Ethics, and Interstellar Dreams"
   date: "2025"
   details: 
-  publish: IEEE International Conference on Robotics and Automation (ICRA'25), 2025
-  authors: Baoyan Chen, <span class='black bold'>Xian Xu</span>, Huamin Qu
+  publish: IEEE International Conference on Robotics and Automation (ICRA'25 Art Program), 2025
+  authors: Baoyan Chen, <span class='black bold'>Xian Xu*</span>, Huamin Qu (*corresponding author)
   image: 'icra25.jpg'
 
 - name: "'I Can’t Even Recall What I Bought': How Design Influences Impulsive Buying in Douyin Live Sales"
