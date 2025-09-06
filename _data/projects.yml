@@ -37,6 +37,28 @@
       icon: file
       label: PDF
 
+- name: "Open Horizons, Colliding Bodies: Adaptive Lure Agents in a Glass Maze"
+  date: "2025"
+  details: 
+  publish: SIGGRAPH Art Papers (SIGGRAPH ASIA'25)
+  authors: Baoyan Chen, <span class='black bold'>Xian Xu</span>, Huamin Qu
+  image: 'siggraph-asia-xr.png'
+  attach: 
+    - url: "https://asia.siggraph.org/2025/"
+      icon: file
+      label: PDF
+  
+- name: "Airy Lift, Competitive Pulse, Veiled Machine Will"
+  date: "2025"
+  details: 
+  publish: SIGGRAPH Art Papers (SIGGRAPH ASIA'25)
+  authors: Baoyan Chen, <span class='black bold'>Xian Xu</span>, Huamin Qu
+  image: 'siggraph-asia-airy.png'
+  attach: 
+    - url: "https://asia.siggraph.org/2025/"
+      icon: file
+      label: PDF
+
 - name: "Unpacking Discourses on Childbirth and Parenthood in Popular Social Media Platforms Across China, Japan, and South Korea"
   date: "2026"
   details: 
@@ -51,15 +73,19 @@
 - name: "At the Peak: Empirical Patterns for Creating Climaxes in Data Videos"
   date: "2025"
   details: 
-  publish: IEEE Transactions on Visualization and Computer Graphics, 2025
+  publish: IEEE Transactions on Visualization and Computer Graphics, (TVCG'25)
   authors: Zheng Wei, Yuelu Li, Wenchuan Lu, Qiming Gu, Huamin Qu, <span class='black bold'>Xian Xu*</span> (*corresponding author)
   image: 'vis25.png'
+  attach: 
+    - url: "https://ieeexplore.ieee.org/document/11023634"
+      icon: file
+      label: PDF
 
 - name: "Multi Layered Autonomy and AI Ecologies in Robotic Art Installations"
   date: "2025"
   details: 
   publish: SIGGRAPH Art Papers (SIGGRAPH'25)
-  authors: Baoyan Chen, <span class='black bold'>Xian Xu</span>, Huamin Qu
+  authors: Baoyan Chen, <span class='black bold'>Xian Xu*</span>, Huamin Qu (*corresponding author)
   image: 'sigraph25.png'
   attach: 
     - url: "../assets/pdf/Siggraph_2025_Final.pdf"
@@ -69,9 +95,13 @@
 - name: "EchoAid: Enhancing Livestream Shopping Accessibility for the DHH Community"
   date: "2025"
   details: 
-  publish: ACM SIGCHI Conference on Computer-Supported Cooperative Work Social Computing (CSCW‘25)
+  publish: ACM SIGCHI Conference on Computer-Supported Cooperative Work Social Computing (CSCW'25)
   authors: Zeyu Yang, Zheng Wei, Yang Zhang, <span class='black bold'>Xian Xu</span>, Changyang He, Muzhi Zhou, Pan Hui
   image: 'cscw25.png'
+  attach: 
+    - url: "https://arxiv.org/abs/2508.08020"
+      icon: file
+      label: PDF
 
 
 - name: "TangibleNet: Synchronous Network Data Storytelling through Tangible Interactions in Augmented Reality"
