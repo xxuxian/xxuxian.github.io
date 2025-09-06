@@ -15,7 +15,7 @@
 - name: "PaperBridge: Crafting Research Narratives through Human-AI Co-Exploration"
   date: "2025"
   details: 
-  publish: ACM Symposium on User Interface Software and Technology (ACM UIST‘25)
+  publish: ACM Symposium on User Interface Software and Technology (ACM UIST’25)
   authors: Runhua Zhang, Yang Ouyang, Leixian Shen, Yuying Tang, Xiaojuan Ma, Huamin Qu, <span class='black bold'>Xian Xu*</span> (*corresponding author)
   image: 'uist25.png'
   attach: 
@@ -29,7 +29,7 @@
 - name: "CineVision: An Interactive Pre-visualization Storyboard System for Director–Cinematographer Collaboration"
   date: "2025"
   details: 
-  publish: ACM Symposium on User Interface Software and Technology (ACM UIST‘25)
+  publish: ACM Symposium on User Interface Software and Technology (ACM UIST’25)
   authors: Zheng Wei, Hongtao Wu, lvmin Zhang, <span class='black bold'>Xian Xu</span>, Yefeng Zheng, Pan Hui, Maneesh Agrawala, Huamin Qu, Anyi Rao
   image: 'uist25cine.png'
   attach: 
@@ -40,7 +40,7 @@
 - name: "Unpacking Discourses on Childbirth and Parenthood in Popular Social Media Platforms Across China, Japan, and South Korea"
   date: "2026"
   details: 
-  publish: International AAAI Conference on Web and Social Media (ICWSM‘26)
+  publish: International AAAI Conference on Web and Social Media (ICWSM’26)
   authors: Zheng Wei, Yunqi Li, Yucheng He, Yuelu Li, <span class='black bold'>Xian Xu</span>, Huamin Qu, Pan Hui, Muzhi Zhou
   image: 'icwsm26.jpg'
   attach: 
