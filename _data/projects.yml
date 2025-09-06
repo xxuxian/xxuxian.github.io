@@ -20,7 +20,7 @@
   authors: Baoyan Chen, <span class='black bold'>Xian Xu</span>, Huamin Qu
   image: 'sigraph25.png'
   attach: 
-    - url: "../assets/pdf/../assets/pdf/Siggraph_2025_Final.pdf"
+    - url: "../assets/pdf/Siggraph_2025_Final.pdf"
       icon: file
       label: PDF
 
