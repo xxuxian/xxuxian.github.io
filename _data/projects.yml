@@ -15,9 +15,9 @@
 - name: "PaperBridge: Crafting Research Narratives through Human-AI Co-Exploration"
   date: "2025"
   details: 
-  publish: The ACM Symposium on User Interface Software and Technology (ACM UIST‘25)
+  publish: ACM Symposium on User Interface Software and Technology (ACM UIST‘25)
   authors: Runhua Zhang, Yang Ouyang, Leixian Shen, Yuying Tang, Xiaojuan Ma, Huamin Qu, <span class='black bold'>Xian Xu*</span> (*corresponding author)
-  image: 'UIST25.png'
+  image: 'uist25.png'
   attach: 
     - url: "https://arxiv.org/abs/2507.14527"
       icon: file
@@ -25,6 +25,28 @@
     - url: "https://www.youtube.com/watch?v=dN8BIjsodwE"
       icon: home
       label: webpage
+
+- name: "CineVision: An Interactive Pre-visualization Storyboard System for Director–Cinematographer Collaboration"
+  date: "2025"
+  details: 
+  publish: ACM Symposium on User Interface Software and Technology (ACM UIST‘25)
+  authors: Zheng Wei, Hongtao Wu, lvmin Zhang, <span class='black bold'>Xian Xu</span>, Yefeng Zheng, Pan Hui, Maneesh Agrawala, Huamin Qu, Anyi Rao
+  image: 'uist25cine.png'
+  attach: 
+    - url: "https://arxiv.org/abs/2507.20355"
+      icon: file
+      label: PDF
+
+- name: "Unpacking Discourses on Childbirth and Parenthood in Popular Social Media Platforms Across China, Japan, and South Korea"
+  date: "2026"
+  details: 
+  publish: International AAAI Conference on Web and Social Media (ICWSM‘26)
+  authors: Zheng Wei, Yunqi Li, Yucheng He, Yuelu Li, <span class='black bold'>Xian Xu</span>, Huamin Qu, Pan Hui, Muzhi Zhou
+  image: 'icwsm26.jpg'
+  attach: 
+    - url: "https://www.icwsm.org/2026/index.html"
+      icon: file
+      label: PDF
 
 - name: "At the Peak: Empirical Patterns for Creating Climaxes in Data Videos"
   date: "2025"
@@ -47,7 +69,7 @@
 - name: "EchoAid: Enhancing Livestream Shopping Accessibility for the DHH Community"
   date: "2025"
   details: 
-  publish: The 28th ACM SIGCHI Conference on Computer-Supported Cooperative Work Social Computing (CSCW), 2025
+  publish: ACM SIGCHI Conference on Computer-Supported Cooperative Work Social Computing (CSCW‘25)
   authors: Zeyu Yang, Zheng Wei, Yang Zhang, <span class='black bold'>Xian Xu</span>, Changyang He, Muzhi Zhou, Pan Hui
   image: 'cscw25.png'
 
@@ -55,7 +77,7 @@
 - name: "TangibleNet: Synchronous Network Data Storytelling through Tangible Interactions in Augmented Reality"
   date: "2025"
   details: 
-  publish: The ACM Conference on Human Factors in Computing Systems (ACM CHI'25)
+  publish: ACM Conference on Human Factors in Computing Systems (CHI'25)
   authors: Kentaro Takahira, Wong Kam-Kwai, Leni Yang, <span class='black bold'>Xian Xu</span>, Takanori Fujiwara, Huamin Qu
   image: 'chi25.png'
   attach: 
@@ -65,7 +87,7 @@
 
 - name: "'Even When Success Seems Impossible, I Keep Streaming': How Do Chinese Elderly Streamers Interact with Platform Algorithmic (In)visibility"
   date: "2025"
-  publish: The ACM Conference on Human Factors in Computing Systems (ACM CHI'25)
+  publish: ACM Conference on Human Factors in Computing Systems (CHI'25)
   authors: Junxiang Liao, Zheng Wei, Zeyu Yang, <span class='black bold'>Xian Xu</span>, Pan Hui, Changyang He, Muzhi Zhou
   image: 'chi25_2.png'
   attach: 
@@ -83,7 +105,7 @@
 - name: "'I Can’t Even Recall What I Bought': How Design Influences Impulsive Buying in Douyin Live Sales"
   date: "2025"
   details: https://www.tandfonline.com/doi/full/10.1080/10447318.2025.2483856
-  publish: International Journal of Human Computer Interaction (IJHCI)
+  publish: International Journal of Human Computer Interaction (IJHCI 2025)
   authors: Zheng Wei, Lik-hang Lee, Wai Tong, <span class='black bold'>Xian Xu*</span>, Chaozhe Zhang, Huamin Qu, Pan Hui*  (*corresponding author)
   image: 'ijhci25.png'
   attach: 
