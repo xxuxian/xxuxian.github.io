@@ -16,9 +16,13 @@
 - name: "Multi Layered Autonomy and AI Ecologies in Robotic Art Installations"
   date: "2025"
   details: 
-  publish: SIGGRAPH 2025 Art Papers (SIGGRAPH'25), 2025
-  authors: Baoyan Chen, <span class='black bold'>Xian Xu*</span>, Huamin Qu (*corresponding author)
+  publish: SIGGRAPH Art Papers (SIGGRAPH'25), 2025
+  authors: Baoyan Chen, <span class='black bold'>Xian Xu</span>, Huamin Qu
   image: 'sigraph25.png'
+  attach: 
+    - url: "../assets/pdf/../assets/pdf/Siggraph_2025_Final.pdf"
+      icon: file
+      label: PDF
 
 - name: "At the Peak: Empirical Patterns for Creating Climaxes in Data Videos"
   date: "2025"
