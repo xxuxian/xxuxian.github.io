@@ -11,7 +11,7 @@ nav:
     Talks and Outreach: '/talks'
     Awards: '/awards'
     Life: "/photos"
-    CV: "/CV"
+  # CV: "/CV"
     
     
 
