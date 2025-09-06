@@ -51,9 +51,9 @@ contact_urls:
     label: "GitHub"
     icon: "github-square"
   email:
-    url: "mailto: xianxu@ust.hk"
+    url: "mailto: xianxu@ln.edu.hk"
     label: "Email"
-    value: "xianxu@ust.hk"
+    value: "xianxu@ln.edu.hk"
     icon: "envelope-square"
   scholar:
     url: "https://scholar.google.com/citations?user=jffJ5uoAAAAJ&hl=en&oi=ao"
