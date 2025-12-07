@@ -37,6 +37,17 @@
       icon: file
       label: PDF
 
+- name: "Exploring Gaze Dynamics in VR Film Education: Gender, Avatar, and the Shift Between Male and Female Perspectives"
+  date: "2025"
+  details: 
+  publish: ACM Symposium on User Interface Software and Technology (IEEE ISMAR’25)
+  authors: Zheng Wei, Jia Sun, Junxiang Liao, Lik-Hang Lee, Pan Hui, Huamin Qu, Wai Tong, <span class='black bold'>Xian Xu*</span> (*corresponding author)
+  image: 'ismar25.png'
+  attach: 
+    - url: "https://arxiv.org/abs/2509.12027"
+      icon: file
+      label: PDF
+
 - name: "Open Horizons, Colliding Bodies: Adaptive Lure Agents in a Glass Maze"
   date: "2025"
   details: 
