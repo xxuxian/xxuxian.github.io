@@ -96,10 +96,10 @@
   date: "2025"
   details: 
   publish: SIGGRAPH Art Papers (SIGGRAPH'25)
-  authors: Baoyan Chen, <span class='black bold'>Xian Xu*</span>, Huamin Qu (*corresponding author)
+  authors: Baoyan Chen, <span class='black bold'>Xian Xu</span>, Huamin Qu
   image: 'sigraph25.png'
   attach: 
-    - url: "../assets/pdf/Siggraph_2025_Final.pdf"
+    - url: "https://dl.acm.org/doi/10.1145/3736789"
       icon: file
       label: PDF
 
@@ -140,7 +140,7 @@
   date: "2025"
   details: 
   publish: IEEE International Conference on Robotics and Automation (ICRA'25 Art Program), 2025
-  authors: Baoyan Chen, <span class='black bold'>Xian Xu*</span>, Huamin Qu (*corresponding author)
+  authors: Baoyan Chen, <span class='black bold'>Xian Xu</span>, Huamin Qu
   image: 'icra25.jpg'
 
 - name: "'I Can’t Even Recall What I Bought': How Design Influences Impulsive Buying in Douyin Live Sales"
