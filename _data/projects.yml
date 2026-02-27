@@ -285,14 +285,6 @@
       icon: file
       label: PDF
 
-- name: "Transforming Cinematography Lighting Education in the Metaverse"
-  date: "2024"
-  publish: Visual Informatics
-  image: "soundstages.jpg"
-  authors: <span class='black bold'>Xian Xu</span>, Wai Tong, Zheng Wei, Meng Xia, Lik-Hang Lee, Huamin Qu
-  attach:
-    - url: "https://www.sciencedirect.com/science/article/pii/S2468502X24000688"
-      icon: file
-      label: PDF
+
 
 
