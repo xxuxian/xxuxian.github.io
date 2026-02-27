@@ -176,16 +176,6 @@
       icon: file
       label: PDF
 
-- name: "Multi-Role VR Training System for Film Production: Enhancing Collaboration with MetaCrew"
-  date: "2024"
-  details: "https://dl.acm.org/doi/proceedings/10.1145/3641234"
-  publish: ACM SIGGRAPH 2024 Posters
-  authors: Zheng Wei, Shan Jin, Wai Tong, David Kei Man Yip, Pan Hui, <span class='black bold'>Xian Xu</span>
-  image: "led2.jpg"
-  attach:
-    - url: "https://dl.acm.org/doi/10.1145/3641234.3671022"
-      icon: file
-      label: PDF
 
 - name: "Is It the End? Guidelines for Cinematic Endings in Data Videos"
   date: "2023"
@@ -211,7 +201,6 @@
     - url: "https://dl.acm.org/doi/pdf/10.1145/3491102.3501896?casa_token=_e52ynRbiQoAAAAA:4xpwzL5SIaHrvBFlWXxsNlw9VbWqOXThX-noBVVsHwGjwOTfyusGZPJwQrDwUXWnrn84xIXqyrJslBU"
       icon: file
       label: PDF
-
 
 
 - name: "A Design Space for Applying the Freytag's Pyramid Structure to Data Stories"
@@ -253,16 +242,6 @@
       icon: file
       label: PDF
 
-
-- name: "The Golden Ratio in Narrative Structure: Visualizing the Rising-Climax in Data Videos"
-  date: "2023"
-  publish: VIS 2023 Posters
-  image: "ratio.jpg"
-  authors: <span class='black bold'>Xian Xu</span>, David Yip, Huamin Qu
-  attach:
-    - url: "https://virtual.ieeevis.org/year/2023/poster_v-vis-posters-1068.html"
-      icon: file
-      label: PDF
 
 - name: "Digital Democracy at Crossroads: A Meta-Analysis of Web and AI Influence on Global Elections"
   date: "2024"
