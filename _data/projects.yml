@@ -16,7 +16,7 @@
   date: "2025"
   details: 
   publish: ACM Symposium on User Interface Software and Technology (ACM UIST’25)
-  authors: Runhua Zhang, Yang Ouyang, Leixian Shen, Yuying Tang, Xiaojuan Ma, Huamin Qu, <span class='black bold'>Xian Xu*</span> (*corresponding author)
+  authors: Runhua Zhang, Yang Ouyang, Leixian Shen, Yuying Tang, Xiaojuan Ma, Huamin Qu, <span class='black bold'>Xian Xu</span>
   image: 'uist25.png'
   attach: 
     - url: "https://arxiv.org/abs/2507.14527"
@@ -41,7 +41,7 @@
   date: "2025"
   details: 
   publish: IEEE International Symposium on Mixed and Augmented Reality (IEEE ISMAR’25)
-  authors: Zheng Wei, Jia Sun, Junxiang Liao, Lik-Hang Lee, Pan Hui, Huamin Qu, Wai Tong, <span class='black bold'>Xian Xu*</span> (*corresponding author)
+  authors: Zheng Wei, Jia Sun, Junxiang Liao, Lik-Hang Lee, Pan Hui, Huamin Qu, Wai Tong, <span class='black bold'>Xian Xu</span>
   image: 'ismar25.png'
   attach: 
     - url: "https://arxiv.org/abs/2509.12027"
@@ -85,7 +85,7 @@
   date: "2025"
   details: 
   publish: IEEE Transactions on Visualization and Computer Graphics, (TVCG'25)
-  authors: Zheng Wei, Yuelu Li, Wenchuan Lu, Qiming Gu, Huamin Qu, <span class='black bold'>Xian Xu*</span> (*corresponding author)
+  authors: Zheng Wei, Yuelu Li, Wenchuan Lu, Qiming Gu, Huamin Qu, <span class='black bold'>Xian Xu</span>
   image: 'vis25.png'
   attach: 
     - url: "https://ieeexplore.ieee.org/document/11023634"
