@@ -160,10 +160,10 @@
   publish: IEEE VIS 2024 (TVCG)
   authors: Zheng Wei, Huamin Qu, <span class='black bold'>Xian Xu</span>
   image: "vishero.png"
-  attach:
-    - url: "../assets/pdf/Vis_24.pdf"
-      icon: file
-      label: PDF
+  # attach:
+  #   - url: "../assets/pdf/Vis_24.pdf"
+  #     icon: file
+  #     label: PDF
 
 # - name: "Hearing the Moment with MetaEcho! From Physical to Virtual in Synchronized Sound Recording"
 #   date: "2024"
