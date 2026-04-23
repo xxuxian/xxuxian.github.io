@@ -87,10 +87,10 @@
   publish: IEEE Transactions on Visualization and Computer Graphics, (TVCG'25)
   authors: Zheng Wei, Yuelu Li, Wenchuan Lu, Qiming Gu, Huamin Qu, <span class='black bold'>Xian Xu</span>
   image: 'vis25.png'
-  attach: 
-    - url: "https://ieeexplore.ieee.org/document/11023634"
-      icon: file
-      label: PDF
+  # attach: 
+  #   - url: "https://ieeexplore.ieee.org/document/11023634"
+  #     icon: file
+  #     label: PDF
 
 - name: "Multi Layered Autonomy and AI Ecologies in Robotic Art Installations"
   date: "2025"
