@@ -2,7 +2,7 @@
   date: "2025"
   details: 
   publish: IEEE Transactions on Visualization and Computer Graphics (IEEE VR'25)<br/> 🏆 <span class="orange">Best Paper Honorable Mention</span>
-  authors: Zheng Wei, Jin Shan, Junxiang Liao, Lik-hang Lee, Chan In SIO, Pan Hui, Huamin Qu, Wai Tong*, <span class='black bold'>Xian Xu*</span> (*corresponding author)
+  authors: Zheng Wei, Jin Shan, Junxiang Liao, Lik-hang Lee, Chan In SIO, Pan Hui, Huamin Qu, Wai Tong, <span class='black bold'>Xian Xu</span>
   image: 'vr25.png'
   attach: 
     - url: "../assets/pdf/VR_25.pdf"
